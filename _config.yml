@@ -1,22 +1,25 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely need to edit after that.
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'jekyll serve'. If you change this file, please restart the server process.
+# Setup
+title:               My Git Blog
+tagline:             'My Git Blog'
+description:         'A reserved <a href="https://jekyllrb.com" target="_blank">Jekyll</a> theme that places the utmost gravity on content with a hidden drawer. Made by <a href="https://twitter.com/mdo" target="_blank">@mdo</a>.'
+url:                 https://jm3789.github.io
+#baseurl:             ''
+paginate:            5
+permalink:           pretty
 
-# Site settings
-title: My Git Blog
-email: jm0309@kookmin.ac.kr
-description: > # this means to ignore newlines until "baseurl:"
-  Here is jm3789's Git Blog!
-#baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://jm3789.github.io" # the base hostname & protocol for your site
-twitter_username: (-)
-github_username:  jm3789
+# About/contact
+author:
+  name:              홍지민
+  url:               "https://jm3789.github.io"
+  email:             jm0309@kookmin.ac.kr
 
-# Build settings
-markdown: kramdown
+# Gems
+plugins:
+  - jekyll-paginate
+
+# Custom vars
+version:             1.1.0
+google_analytics_id: #UA-XXXX-Y
 
 comment:
   provider: "disqus"
