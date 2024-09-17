@@ -1,34 +1,84 @@
-## 1. Repository 생성하여 GitHub page 시작
-웹페이지로 만들어질 repo를 생성하고 로컬 저장소에 연결함.
-- Github에서 (username).github.io 이름의 Repo 생성
-- Repo를 로컬 저장소와 연결
-  - Remote Repository의 주소를 복사 
-  - git clone을 이용하여 로컬 저장소와 연결
-- index.html로 웹페이지에 보일 예시 파일 작성, github에 push
-  - git commit -m "msg"로 커밋 남김
-  - git branch -M main 으로 현재 branch의 이름을 main으로 변경
+<!-- markdownlint-disable-next-line -->
+<div align="center">
 
-## 2. Jekyll 시작, 첫 포스트 업로드
-Jekyll을 설치하고, local에 문서를 편집하여 웹페이지를 관리함.
-- 현재 디렉토리에 jekyll new . --force로 Jekyll 설치
-- (bundle exec) jekyll serve 실행 후, localhost:4000 접속
-- _config.yml에서 정보를 수정
-  - (해당 진행 상황을 commit 및 push했으나 이후에 생긴 문제를 해결하던 중 커밋이 삭제됨)
-- _posts 폴더에 2021-11-11-new_post.md 문서 생성, 포스트 내용 작성
-  - markdown 형식
-- 로컬 저장소에 commit 및 push
+  <!-- markdownlint-disable-next-line -->
+  # Chirpy Jekyll Theme
 
-## 3. 테마 추가
-Git blog에 Lanyon 테마를 적용함.
-- git clone으로 poole/lanyon 저장소를 로컬에 받아옴
-- 변경된 파일들을 git에 push
-  - (웹페이지에 문제가 생겨 커밋과 삭제를 여러 번 반복하였으나, 이후 _config.yml 문서에서 baseurl 부분을 주석 처리하여 해결함)
+  A minimal, responsive, and feature-rich Jekyll theme for technical writing.
 
-## 4. 댓글 추가
-Disqus를 이용해 댓글 기능을 추가하여 블로그를 Customize함.
-- Disqus에 가입하고, Website URL에 github page 주소 입력하여 연결
-  - Platform 중 Jekyll 선택
-- _config.yml에 comment와 관련된 key와 value를 추가
-- disqus 홈페이지에서 Universal Code를 복사하고 post.html에 붙여넣음
- - comments: True로 지정된 글에만 댓글이 허용되도록 코드를 수정
-- 로컬 저장소에 commit 및 push
+  [![CI](https://img.shields.io/github/actions/workflow/status/cotes2020/jekyll-theme-chirpy/ci.yml?logo=github)][ci]&nbsp;
+  [![Codacy Badge](https://img.shields.io/codacy/grade/4e556876a3c54d5e8f2d2857c4f43894?logo=codacy)][codacy]&nbsp;
+  [![GitHub license](https://img.shields.io/github/license/cotes2020/jekyll-theme-chirpy?color=goldenrod)][license]&nbsp;
+  [![Gem Version](https://img.shields.io/gem/v/jekyll-theme-chirpy?&logo=RubyGems&logoColor=ghostwhite&label=gem&color=orange)][gem]&nbsp;
+  [![Open in Dev Containers](https://img.shields.io/badge/Dev_Containers-Open-deepskyblue?logo=linuxcontainers)][open-container]
+
+  [**Live Demo** →][demo]
+
+  [![Devices Mockup](https://chirpy-img.netlify.app/commons/devices-mockup.png)][demo]
+
+</div>
+
+## Features
+
+- Dark Theme
+- Localized UI language
+- Pinned Posts on Home Page
+- Hierarchical Categories
+- Trending Tags
+- Table of Contents
+- Last Modified Date
+- Syntax Highlighting
+- Mathematical Expressions
+- Mermaid Diagrams & Flowcharts
+- Dark Mode Images
+- Embed Media
+- Comment Systems
+- Built-in Search
+- Atom Feeds
+- PWA
+- Web Analytics
+- SEO & Performance Optimization
+
+## Documentation
+
+To learn how to use, develop, and upgrade the project, please refer to the [Wiki][wiki].
+
+## Contributing
+
+Contributions (_pull requests_, _issues_, and _discussions_) are what make the open-source community such an amazing place
+to learn, inspire, and create. Any contributions you make are greatly appreciated.
+For details, see the "[Contributing Guidelines][contribute-guide]".
+
+## Credits
+
+### Contributors
+
+Thanks to [all the contributors][contributors] involved in the development of the project!
+
+[![all-contributors](https://contrib.rocks/image?repo=cotes2020/jekyll-theme-chirpy&columns=16)][contributors]
+<sub> — Made with [contrib.rocks](https://contrib.rocks)</sub>
+
+### Third-Party Assets
+
+This project is built on the [Jekyll][jekyllrb] ecosystem and some [great libraries][lib], and is developed using [VS Code][vscode] as well as tools provided by [JetBrains][jetbrains] under a non-commercial open-source software license.
+
+The avatar and favicon for the project's website are from [ClipartMAX][clipartmax].
+
+## License
+
+This project is published under [MIT License][license].
+
+[gem]: https://rubygems.org/gems/jekyll-theme-chirpy
+[ci]: https://github.com/cotes2020/jekyll-theme-chirpy/actions/workflows/ci.yml?query=event%3Apush+branch%3Amaster
+[codacy]: https://app.codacy.com/gh/cotes2020/jekyll-theme-chirpy/dashboard?utm_source=gh&utm_medium=referral&utm_content=&utm_campaign=Badge_grade
+[license]: https://github.com/cotes2020/jekyll-theme-chirpy/blob/master/LICENSE
+[open-container]: https://vscode.dev/redirect?url=vscode://ms-vscode-remote.remote-containers/cloneInVolume?url=https://github.com/cotes2020/jekyll-theme-chirpy
+[jekyllrb]: https://jekyllrb.com/
+[clipartmax]: https://www.clipartmax.com/middle/m2i8b1m2K9Z5m2K9_ant-clipart-childrens-ant-cute/
+[demo]: https://cotes2020.github.io/chirpy-demo/
+[wiki]: https://github.com/cotes2020/jekyll-theme-chirpy/wiki
+[contribute-guide]: https://github.com/cotes2020/jekyll-theme-chirpy/blob/master/docs/CONTRIBUTING.md
+[contributors]: https://github.com/cotes2020/jekyll-theme-chirpy/graphs/contributors
+[lib]: https://github.com/cotes2020/chirpy-static-assets
+[vscode]: https://code.visualstudio.com/
+[jetbrains]: https://www.jetbrains.com/?from=jekyll-theme-chirpy
