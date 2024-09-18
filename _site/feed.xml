@@ -4,7 +4,7 @@
   <id>http://localhost:4000/</id>
   <title>Jimin's Github Blog</title>
   <subtitle>안녕하세요</subtitle>
-  <updated>2024-09-18T11:04:16+09:00</updated>
+  <updated>2024-09-18T11:06:57+09:00</updated>
   <author>
     <name>Jimin Hong</name>
     <uri>http://localhost:4000/</uri>
@@ -141,7 +141,7 @@ To add new posts, simply add a file in the _posts directory that follows the con
     <link href="http://localhost:4000/posts/customize-the-favicon/" rel="alternate" type="text/html" title="Customize the Favicon" />
     <published>2019-08-11T01:34:00+09:00</published>
   
-    <updated>2024-09-17T23:08:35+09:00</updated>
+    <updated>2024-09-18T11:06:40+09:00</updated>
   
     <id>http://localhost:4000/posts/customize-the-favicon/</id>
     <content src="http://localhost:4000/posts/customize-the-favicon/" />
