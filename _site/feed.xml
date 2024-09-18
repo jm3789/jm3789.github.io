@@ -4,7 +4,7 @@
   <id>http://localhost:4000/</id>
   <title>Jimin's Github Blog</title>
   <subtitle>안녕하세요</subtitle>
-  <updated>2024-09-18T11:06:57+09:00</updated>
+  <updated>2024-09-18T22:34:23+09:00</updated>
   <author>
     <name>Jimin Hong</name>
     <uri>http://localhost:4000/</uri>
@@ -17,6 +17,30 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>제목</title>
+    <link href="http://localhost:4000/posts/1/" rel="alternate" type="text/html" title="제목" />
+    <published>2024-09-18T22:32:03+09:00</published>
+  
+    <updated>2024-09-18T22:32:03+09:00</updated>
+  
+    <id>http://localhost:4000/posts/1/</id>
+    <content src="http://localhost:4000/posts/1/" />
+    <author>
+      <name>Jimin Hong</name>
+    </author>
+
+  
+    
+    <category term="Memo" />
+    
+  
+
+  <summary>test</summary>
+
+  </entry>
 
   
   <entry>
@@ -50,7 +74,7 @@
     <link href="http://localhost:4000/posts/post1/" rel="alternate" type="text/html" title="Disqus를 이용해 Git Blog에 댓글 기능 추가" />
     <published>2021-12-16T23:53:00+09:00</published>
   
-    <updated>2024-09-17T23:08:35+09:00</updated>
+    <updated>2021-12-16T23:53:00+09:00</updated>
   
     <id>http://localhost:4000/posts/post1/</id>
     <content src="http://localhost:4000/posts/post1/" />
@@ -87,7 +111,7 @@ Disqus를 이용해 댓글 기능을 추가하여 블로그를 Customize함.
     <link href="http://localhost:4000/posts/new_post/" rel="alternate" type="text/html" title="jekyll로 포스팅하기" />
     <published>2021-11-11T20:00:00+09:00</published>
   
-    <updated>2024-09-17T23:08:35+09:00</updated>
+    <updated>2021-11-11T20:00:00+09:00</updated>
   
     <id>http://localhost:4000/posts/new_post/</id>
     <content src="http://localhost:4000/posts/new_post/" />
@@ -113,7 +137,7 @@ Disqus를 이용해 댓글 기능을 추가하여 블로그를 Customize함.
     <link href="http://localhost:4000/posts/welcome-to-jekyll/" rel="alternate" type="text/html" title="Welcome to Jekyll!" />
     <published>2021-11-11T18:47:46+09:00</published>
   
-    <updated>2024-09-17T23:08:35+09:00</updated>
+    <updated>2021-11-11T18:47:46+09:00</updated>
   
     <id>http://localhost:4000/posts/welcome-to-jekyll/</id>
     <content src="http://localhost:4000/posts/welcome-to-jekyll/" />
@@ -132,36 +156,6 @@ Disqus를 이용해 댓글 기능을 추가하여 블로그를 Customize함.
   <summary>You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run jekyll serve, which launches a web server and auto-regenerates your site when a file is updated.
 
 To add new posts, simply add a file in the _posts directory that follows the convention YYYY-MM-DD-name-...</summary>
-
-  </entry>
-
-  
-  <entry>
-    <title>Customize the Favicon</title>
-    <link href="http://localhost:4000/posts/customize-the-favicon/" rel="alternate" type="text/html" title="Customize the Favicon" />
-    <published>2019-08-11T01:34:00+09:00</published>
-  
-    <updated>2024-09-18T11:06:40+09:00</updated>
-  
-    <id>http://localhost:4000/posts/customize-the-favicon/</id>
-    <content src="http://localhost:4000/posts/customize-the-favicon/" />
-    <author>
-      <name>cotes</name>
-    </author>
-
-  
-    
-    <category term="Github Blog" />
-    
-    <category term="Tutorial" />
-    
-  
-
-  <summary>The favicons of Chirpy are placed in the directory assets/img/favicons/. You may want to replace them with your own. The following sections will guide you to create and replace the default favicons.
-
-Generate the favicon
-
-Prepare a square image (PNG, JPG, or SVG) with a size of 512x512 or more, and then go to the online tool Real Favicon Generator and click the button Select your Favicon image ...</summary>
 
   </entry>
 
