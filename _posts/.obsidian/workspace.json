@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "bbc377b5efc96f0f",
+        "id": "dcf48f7dda170ecd",
         "type": "tabs",
         "children": [
           {
-            "id": "9951e4808fa1e967",
+            "id": "37d4bbe7a6ee5843",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "memo/2024-09-18-1.md",
+                "file": "gitblog/blogging/2024-11-12-post1.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "memo/2024-09-18-1.md",
+                "file": "gitblog/blogging/2024-11-12-post1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "memo/2024-09-18-1.md",
+                "file": "gitblog/blogging/2024-11-12-post1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "memo/2024-09-18-1.md"
+                "file": "gitblog/blogging/2024-11-12-post1.md"
               }
             }
           }
@@ -146,13 +146,19 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "9951e4808fa1e967",
+  "active": "37d4bbe7a6ee5843",
   "lastOpenFiles": [
+    "gitblog/blogging/2021-12-16-post1.md",
+    "gitblog/blogging/2024-11-12-post1.md",
     "gitblog/blogging/2024-09-18-memo.md",
-    "memo/2024-09-18-memo.md",
-    "2024-09-18-memo.md",
     "template/memo-template.md",
     "memo/2024-09-18-1.md",
+    "memo/2024-11-12-1.md",
+    "gitblog/blogging/2021-11-11-new_post.md",
+    "gitblog/blogging/Untitled.md",
+    "Untitled.md",
+    "memo/2024-09-18-memo.md",
+    "2024-09-18-memo.md",
     "memo/2024-09-18-tit9/18/20243.md",
     "memo/2024-09-18-tit9/18",
     "memo/2024-09-18-tit9",
@@ -169,9 +175,7 @@
     "memo/newmemo.md",
     "gitblog/blogging/2024-09-18.md",
     "gitblog/tutorial/2019-08-08-text-and-typography.md",
-    "gitblog/blogging/2021-12-16-post1.md",
     "2021-11-11-welcome-to-jekyll.markdown",
-    "gitblog/blogging/2021-11-11-new_post.md",
     "gitblog/tutorial/2019-08-11-customize-the-favicon.md",
     "gitblog/tutorial/2019-08-09-getting-started.md",
     "gitblog/tutorial/2019-08-08-write-a-new-post.md"
