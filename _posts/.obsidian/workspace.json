@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "gitblog/blogging/2024-11-14-post1.md",
+                "file": "gitblog/blogging/2024-11-14-post2.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2024-11-14-post1"
+              "title": "2024-11-14-post2"
             }
           }
         ],
@@ -108,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "gitblog/blogging/2024-11-14-post1.md",
+                "file": "gitblog/blogging/2024-11-14-post2.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +118,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for 2024-11-14-post1"
+              "title": "Backlinks for 2024-11-14-post2"
             }
           },
           {
@@ -127,12 +127,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "gitblog/blogging/2024-11-14-post1.md",
+                "file": "gitblog/blogging/2024-11-14-post2.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from 2024-11-14-post1"
+              "title": "Outgoing links from 2024-11-14-post2"
             }
           },
           {
@@ -154,10 +154,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "gitblog/blogging/2024-11-14-post1.md"
+                "file": "gitblog/blogging/2024-11-14-post2.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of 2024-11-14-post1"
+              "title": "Outline of 2024-11-14-post2"
             }
           }
         ]
@@ -179,14 +179,15 @@
   },
   "active": "30428a7620ba7d35",
   "lastOpenFiles": [
-    "gitblog/blogging/2024-11-12-post1.md",
+    "스크린샷 2024-11-14 오후 6.33.16.png",
     "gitblog/blogging/2024-11-14-post1.md",
+    "memo/2024-11-14-1.md",
+    "gitblog/blogging/2024-11-12-post1.md",
     "gitblog/blogging/2024-11-14-post2.md",
     "template/memo-template.md",
     "template/my-template.md",
     "gitblog/blogging/2024-11-14-post3.md",
     "gitblog/blogging/Untitled 1.md",
-    "memo/2024-11-14-1.md",
     "6484d183a1521bae752e2b411aff3759_res.jpeg",
     "memo/2024-09-18-1.md",
     "gitblog/blogging/2021-12-16-post1.md",
@@ -210,7 +211,6 @@
     "gitblog/blogging/2024-09-18-memo copy.md",
     "memo/newmemo.md",
     "gitblog/blogging/2024-09-18.md",
-    "gitblog/tutorial/2019-08-08-text-and-typography.md",
     "2021-11-11-welcome-to-jekyll.markdown"
   ]
 }

@@ -4,7 +4,7 @@
   <id>http://localhost:4000/</id>
   <title>Jimin's Github Blog</title>
   <subtitle>안녕하세요</subtitle>
-  <updated>2024-11-14T19:06:02+09:00</updated>
+  <updated>2024-11-14T19:17:48+09:00</updated>
   <author>
     <name>Jimin Hong</name>
     <uri>http://localhost:4000/</uri>
@@ -46,30 +46,6 @@
 
   
   <entry>
-    <title>제목</title>
-    <link href="http://localhost:4000/posts/1/" rel="alternate" type="text/html" title="제목" />
-    <published>2024-11-14T10:11:35+09:00</published>
-  
-    <updated>2024-11-14T10:11:35+09:00</updated>
-  
-    <id>http://localhost:4000/posts/1/</id>
-    <content src="http://localhost:4000/posts/1/" />
-    <author>
-      <name>Jimin Hong</name>
-    </author>
-
-  
-    
-    <category term="Memo" />
-    
-  
-
-  <summary>test</summary>
-
-  </entry>
-
-  
-  <entry>
     <title>Obsidian에서 템플릿 활용해 글 작성하기</title>
     <link href="http://localhost:4000/posts/post2/" rel="alternate" type="text/html" title="Obsidian에서 템플릿 활용해 글 작성하기" />
     <published>2024-11-14T00:00:00+09:00</published>
@@ -90,13 +66,19 @@
     
   
 
-  <summary>깃블로그에 포스팅할 때 Obsidian을 사용해보기로 했다. 직무 특강에서 멘토님이 Obsidian을 사용하시는 걸 봤는데 되게 편리해 보였기 때문이다. 일단 마크다운 작성이 편했다. 작성한 마크다운이 화면에 어떻게 보일지 직관적으로 확인할 수 있었다. 또 템플릿 기능 덕분에 메모 버튼을 누르면 현재 날짜와 시간이 자동으로 삽입된 양식이 생성되어서, 깃블로그에 글을 작성할 때 매우 유용할 거 같았다. 그리고 글들을 graph view로 도식화해서 볼 수 있었는데 이것도 글이 많아지면 활용해보고 싶었다.
+  <summary>깃블로그에 포스팅할 때 Obsidian을 활용해 보기로 했다. 직무 특강에서 멘토님이 사용하시는 모습을 보고 매우 편리해 보였기 때문이다.
+
+일단 마크다운 작성이 쉬워서 작성 내용을 직관적으로 미리 볼 수 있었다. 그리고 템플릿 기능 덕분에 메모 버튼을 누르면 현재 날짜와 시간이 자동으로 입력된 양식이 생성되어 깃블로그에 글을 작성할 때 유용할 것 같았다.
 
 
 
 1. Obsidian의 Vault 설정
 
-블로그의 _posts 디렉토리를 Obsidian의 Vault로 가져왔다. 처음에는 블로그의 루트 디렉토리를 그대로 Valut로 지정하고 글을 작성했으나 파일...</summary>
+블로그의 _posts 디렉토리를 Obsidian의 Vault로 가져왔다. 처음에는 블로그의 루트 디렉토리를 그대로 Valut로 지정하고 글을 작성했으나 파일의 수가 너무 많아서 복잡해졌다. _posts 디렉토리만 가져와도 잘 동작하는 것 같아서 이렇게 했다.
+
+1.1. 파일명 규칙 문제
+
+포스트가 블로그...</summary>
 
   </entry>
 
@@ -143,6 +125,32 @@
   
     
     <category term="Memo" />
+    
+  
+
+  <summary>test</summary>
+
+  </entry>
+
+  
+  <entry>
+    <title>240918 test</title>
+    <link href="http://localhost:4000/posts/memo/" rel="alternate" type="text/html" title="240918 test" />
+    <published>2024-09-18T11:00:00+09:00</published>
+  
+    <updated>2024-09-18T11:00:00+09:00</updated>
+  
+    <id>http://localhost:4000/posts/memo/</id>
+    <content src="http://localhost:4000/posts/memo/" />
+    <author>
+      <name>Jimin Hong</name>
+    </author>
+
+  
+    
+    <category term="Github Blog" />
+    
+    <category term="Blogging" />
     
   
 
