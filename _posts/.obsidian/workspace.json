@@ -4,39 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "dcf48f7dda170ecd",
+        "id": "214e71c5c0ba2029",
         "type": "tabs",
         "children": [
           {
-            "id": "a9c751a31d980af6",
+            "id": "233843ad4416406f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "gitblog/blogging/2024-11-14-post2.md",
+                "file": "gitblog/blogging/2024-11-14-241114_2.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2024-11-14-post2"
-            }
-          },
-          {
-            "id": "30428a7620ba7d35",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "gitblog/blogging/2024-11-14-post2.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "2024-11-14-post2"
+              "title": "2024-11-14-241114_2"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -177,23 +162,23 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "30428a7620ba7d35",
+  "active": "233843ad4416406f",
   "lastOpenFiles": [
+    "gitblog/blogging/2024-11-14-241114_1.md",
+    "gitblog/blogging/2024-11-14-241114_2.md",
+    "gitblog/blogging/2024-11-12-241112_1.md",
+    "gitblog/blogging/2021-11-11-new_post.md",
+    "gitblog/blogging/2024-09-18-memo.md",
+    "gitblog/blogging/2021-12-16-post1.md",
     "스크린샷 2024-11-14 오후 6.33.16.png",
-    "gitblog/blogging/2024-11-14-post1.md",
     "memo/2024-11-14-1.md",
-    "gitblog/blogging/2024-11-12-post1.md",
-    "gitblog/blogging/2024-11-14-post2.md",
     "template/memo-template.md",
     "template/my-template.md",
     "gitblog/blogging/2024-11-14-post3.md",
     "gitblog/blogging/Untitled 1.md",
     "6484d183a1521bae752e2b411aff3759_res.jpeg",
     "memo/2024-09-18-1.md",
-    "gitblog/blogging/2021-12-16-post1.md",
-    "gitblog/blogging/2024-09-18-memo.md",
     "memo/2024-11-12-1.md",
-    "gitblog/blogging/2021-11-11-new_post.md",
     "memo/2024-09-18-memo.md",
     "2024-09-18-memo.md",
     "memo/2024-09-18-tit9/18/20243.md",
