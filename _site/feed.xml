@@ -4,7 +4,7 @@
   <id>http://localhost:4000/</id>
   <title>Jimin's Github Blog</title>
   <subtitle>안녕하세요</subtitle>
-  <updated>2024-11-14T19:17:48+09:00</updated>
+  <updated>2024-11-16T15:20:01+09:00</updated>
   <author>
     <name>Jimin Hong</name>
     <uri>http://localhost:4000/</uri>
@@ -20,40 +20,72 @@
 
   
   <entry>
-    <title>GitHub.io 블로그에 Chirpy 테마 적용하기</title>
-    <link href="http://localhost:4000/posts/post1/" rel="alternate" type="text/html" title="GitHub.io 블로그에 Chirpy 테마 적용하기" />
-    <published>2024-11-14T19:05:00+09:00</published>
+    <title>제목</title>
+    <link href="http://localhost:4000/posts/1/" rel="alternate" type="text/html" title="제목" />
+    <published>2024-11-16T15:13:05+09:00</published>
   
-    <updated>2024-11-14T19:05:00+09:00</updated>
+    <updated>2024-11-16T15:13:05+09:00</updated>
   
-    <id>http://localhost:4000/posts/post1/</id>
-    <content src="http://localhost:4000/posts/post1/" />
+    <id>http://localhost:4000/posts/1/</id>
+    <content src="http://localhost:4000/posts/1/" />
     <author>
       <name>Jimin Hong</name>
     </author>
 
   
     
-    <category term="Github Blog" />
-    
-    <category term="Blogging" />
+    <category term="Memos" />
     
   
 
-  <summary>(다시 진행 필요)</summary>
+  <summary>부제목</summary>
+
+  </entry>
+
+  
+  <entry>
+    <title>[JS] 백준 1927. 최소 힙</title>
+    <link href="http://localhost:4000/posts/241116_1/" rel="alternate" type="text/html" title="[JS] 백준 1927. 최소 힙" />
+    <published>2024-11-16T00:15:00+09:00</published>
+  
+    <updated>2024-11-16T00:15:00+09:00</updated>
+  
+    <id>http://localhost:4000/posts/241116_1/</id>
+    <content src="http://localhost:4000/posts/241116_1/" />
+    <author>
+      <name>Jimin Hong</name>
+    </author>
+
+  
+    
+    <category term="PS" />
+    
+  
+
+  <summary>백준 1927. 최소 힙
+
+힙 (Heap)
+
+힙은 이진 트리의 일종으로, 부모 노드와 자식 노드 간의 특정 관계를 유지하는 자료 구조이다. 힙은 완전 이진 트리 구조를 가지는데, 이는 트리가 항상 왼쪽부터 순차적으로 채워진다는 의미이다. 그래서 트리를 배열로 쉽게 표현하고 관리할 수 있다.
+
+힙에는 두 가지 종류가 있다. 최소 힙과 최대 힙이다.
+
+최소 힙 (Min Heap)
+
+최소 힙은 부모 노드가 자식 노드보다 항상 작은 값을 가지는 완전 이진 트리이다. 최상단의 루트 노드는 항상 트리에서 가장 작은 값을 가진다. 새로운 요소가 추가되면 upheap 과정을 수행하고, 루트에 있던 최솟값이 삭제되면 가장 마지막에 있던 요소를 맨 앞으로 이동시킨 후 downheap 과정을 수행하여 힙의 규칙을 유지한다...</summary>
 
   </entry>
 
   
   <entry>
     <title>Obsidian에서 템플릿 활용해 글 작성하기</title>
-    <link href="http://localhost:4000/posts/post2/" rel="alternate" type="text/html" title="Obsidian에서 템플릿 활용해 글 작성하기" />
-    <published>2024-11-14T00:00:00+09:00</published>
+    <link href="http://localhost:4000/posts/241114_2/" rel="alternate" type="text/html" title="Obsidian에서 템플릿 활용해 글 작성하기" />
+    <published>2024-11-14T19:20:00+09:00</published>
   
-    <updated>2024-11-14T00:00:00+09:00</updated>
+    <updated>2024-11-14T19:20:00+09:00</updated>
   
-    <id>http://localhost:4000/posts/post2/</id>
-    <content src="http://localhost:4000/posts/post2/" />
+    <id>http://localhost:4000/posts/241114_2/</id>
+    <content src="http://localhost:4000/posts/241114_2/" />
     <author>
       <name>Jimin Hong</name>
     </author>
@@ -61,8 +93,6 @@
   
     
     <category term="Github Blog" />
-    
-    <category term="Blogging" />
     
   
 
@@ -74,7 +104,7 @@
 
 1. Obsidian의 Vault 설정
 
-블로그의 _posts 디렉토리를 Obsidian의 Vault로 가져왔다. 처음에는 블로그의 루트 디렉토리를 그대로 Valut로 지정하고 글을 작성했으나 파일의 수가 너무 많아서 복잡해졌다. _posts 디렉토리만 가져와도 잘 동작하는 것 같아서 이렇게 했다.
+블로그의 _posts 디렉토리를 Obsidian의 Vault로 가져왔다. 처음에는 블로그의 루트 디렉토리를 그대로 Vault로 지정하고 글을 작성했으나 파일의 수가 너무 많아서 복잡해졌다. _posts 디렉토리만 가져와도 잘 동작하는 것 같아서 이렇게 했다.
 
 1.1. 파일명 규칙 문제
 
@@ -84,14 +114,14 @@
 
   
   <entry>
-    <title>GitHub.io 블로그 ruby 관련 오류</title>
-    <link href="http://localhost:4000/posts/post1/" rel="alternate" type="text/html" title="GitHub.io 블로그 ruby 관련 오류" />
-    <published>2024-11-12T01:35:00+09:00</published>
+    <title>GitHub.io 블로그에 Chirpy 테마 적용하기</title>
+    <link href="http://localhost:4000/posts/241114_1/" rel="alternate" type="text/html" title="GitHub.io 블로그에 Chirpy 테마 적용하기" />
+    <published>2024-11-14T19:05:00+09:00</published>
   
-    <updated>2024-11-14T19:05:18+09:00</updated>
+    <updated>2024-11-14T19:05:00+09:00</updated>
   
-    <id>http://localhost:4000/posts/post1/</id>
-    <content src="http://localhost:4000/posts/post1/" />
+    <id>http://localhost:4000/posts/241114_1/</id>
+    <content src="http://localhost:4000/posts/241114_1/" />
     <author>
       <name>Jimin Hong</name>
     </author>
@@ -100,61 +130,44 @@
     
     <category term="Github Blog" />
     
-    <category term="Blogging" />
+  
+
+  <summary>블로그 테마는 Chirpy 테마로 하기로 했다. 인기있는 테마기도 하고, 이쁘고 깔끔해보였기 때문이다.
+
+아래는 Chirpy 테마(자꾸 크리스피라고 읽게 된다) 적용 과정과 겪은 문제들을 정리한 내용이다. 반성해야 할 점은 공식 문서 확인을 안하고 진행했다는 점이다.
+
+
+무턱대고 한 것치곤 돌아가긴 하는데, 조만간 공식 가이드를 참조해서 다시 진행할 생각이다…혹시 읽고 있는 사람이 있다면 따라하지 마시길.
+
+1. Chirpy 테마 다운로드
+Chirpy 테마를 적용하기 위해 Chirpy GitHub 저장소에서 zip 파일을 다운로드하고, 압축을 풀었다.
+
+2. Chirpy 파일 복사
+기존에 작성했던 Post 파일만 남기고 나머지 파일들을 전부 덮어쓰면 될 거라고 생각했는데, 기존 테마와 충돌이 발생했다....</summary>
+
+  </entry>
+
+  
+  <entry>
+    <title>GitHub.io 블로그 ruby 관련 오류</title>
+    <link href="http://localhost:4000/posts/241112_1/" rel="alternate" type="text/html" title="GitHub.io 블로그 ruby 관련 오류" />
+    <published>2024-11-12T01:35:00+09:00</published>
+  
+    <updated>2024-11-12T01:35:00+09:00</updated>
+  
+    <id>http://localhost:4000/posts/241112_1/</id>
+    <content src="http://localhost:4000/posts/241112_1/" />
+    <author>
+      <name>Jimin Hong</name>
+    </author>
+
+  
+    
+    <category term="Github Blog" />
     
   
 
   <summary>깃헙 블로그 살리기</summary>
-
-  </entry>
-
-  
-  <entry>
-    <title>제목</title>
-    <link href="http://localhost:4000/posts/1/" rel="alternate" type="text/html" title="제목" />
-    <published>2024-09-18T22:32:03+09:00</published>
-  
-    <updated>2024-09-18T22:32:03+09:00</updated>
-  
-    <id>http://localhost:4000/posts/1/</id>
-    <content src="http://localhost:4000/posts/1/" />
-    <author>
-      <name>Jimin Hong</name>
-    </author>
-
-  
-    
-    <category term="Memo" />
-    
-  
-
-  <summary>test</summary>
-
-  </entry>
-
-  
-  <entry>
-    <title>240918 test</title>
-    <link href="http://localhost:4000/posts/memo/" rel="alternate" type="text/html" title="240918 test" />
-    <published>2024-09-18T11:00:00+09:00</published>
-  
-    <updated>2024-09-18T11:00:00+09:00</updated>
-  
-    <id>http://localhost:4000/posts/memo/</id>
-    <content src="http://localhost:4000/posts/memo/" />
-    <author>
-      <name>Jimin Hong</name>
-    </author>
-
-  
-    
-    <category term="Github Blog" />
-    
-    <category term="Blogging" />
-    
-  
-
-  <summary>test</summary>
 
   </entry>
 

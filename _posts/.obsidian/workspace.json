@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "214e71c5c0ba2029",
+        "id": "d2f5dc061174842f",
         "type": "tabs",
         "children": [
           {
-            "id": "233843ad4416406f",
+            "id": "a0aa795d8949d0c0",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "gitblog/blogging/2024-11-14-241116_1.md",
+                "file": "templates/my-template.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2024-11-14-241116_1"
+              "title": "my-template"
             }
           }
         ]
@@ -162,41 +162,50 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "233843ad4416406f",
+  "active": "a0aa795d8949d0c0",
   "lastOpenFiles": [
-    "gitblog/blogging/2024-11-14-241114_2.md",
-    "gitblog/blogging/2024-11-14-241116_1.md",
+    "posts/ps/2024-11-16-241116_1.md",
+    "templates/memo-template.md",
+    "templates/my-template.md",
+    "posts/memos/2024-11-16-1.md",
+    "posts/memos/2024-09-18-1.md",
+    "posts/memos",
+    "posts/ps/2024-11-14-241116_1.md",
+    "posts/ps",
+    "posts/gitblog/2024-11-14-241116_1.md",
+    "posts/gitblog/2024-11-14-241114_2.md",
+    "posts/gitblog/2024-11-14-241114_1.md",
+    "posts/gitblog/2024-11-12-241112_1.md",
+    "posts/gitblog/2024-09-18-memo.md",
+    "posts/gitblog/2021-12-16-post1.md",
+    "posts/gitblog/2021-11-11-welcome-to-jekyll.markdown",
+    "posts/gitblog/2021-11-11-new_post.md",
+    "posts/gitblog",
+    "images/스크린샷 2024-11-14 오후 6.33.16.png",
+    "images/6484d183a1521bae752e2b411aff3759_res.jpeg",
+    "images",
+    "memos/2024-09-18-1.md",
+    "memos",
+    "templates",
     "gitblog/blogging/2024-11-14-241114_1.md",
+    "posts/blogging/2024-11-14-241116_1.md",
+    "posts/blogging/2024-11-14-241114_2.md",
+    "posts/blogging/2024-11-14-241114_1.md",
+    "posts/blogging/2024-11-12-241112_1.md",
+    "posts/blogging/2024-09-18-memo.md",
+    "posts/blogging/2021-12-16-post1.md",
+    "posts/blogging/2021-11-11-welcome-to-jekyll.markdown",
+    "posts/blogging/2021-11-11-new_post.md",
+    "posts/blogging",
+    "posts",
+    "image/스크린샷 2024-11-14 오후 6.33.16.png",
+    "image/6484d183a1521bae752e2b411aff3759_res.jpeg",
+    "gitblog/blogging/2024-11-14-241116_1.md",
     "gitblog/blogging/2024-11-12-241112_1.md",
-    "gitblog/blogging/2021-11-11-new_post.md",
-    "gitblog/blogging/2024-09-18-memo.md",
-    "gitblog/blogging/2021-12-16-post1.md",
+    "gitblog/blogging/2024-11-14-241114_2.md",
+    "memo/2024-11-16-1.md",
     "스크린샷 2024-11-14 오후 6.33.16.png",
-    "memo/2024-11-14-1.md",
-    "template/memo-template.md",
-    "template/my-template.md",
-    "gitblog/blogging/2024-11-14-post3.md",
-    "gitblog/blogging/Untitled 1.md",
     "6484d183a1521bae752e2b411aff3759_res.jpeg",
-    "memo/2024-09-18-1.md",
-    "memo/2024-11-12-1.md",
-    "memo/2024-09-18-memo.md",
-    "2024-09-18-memo.md",
-    "memo/2024-09-18-tit9/18/20243.md",
-    "memo/2024-09-18-tit9/18",
-    "memo/2024-09-18-tit9",
-    "memo/2024-09-18-fdsa.md",
-    "memo/2024-09-18-asdf.md",
-    "memo/2024-09.188.md",
-    "memo/2024-09-18-jkdls.md",
-    "memo/asdf.md",
-    "memo/asdf",
-    "gitblog/blogging/2021-11-11-welcome-to-jekyll.markdown",
-    "Untitled.canvas",
-    "gitblog/blogging/2024-09-18-memo2.md",
-    "gitblog/blogging/2024-09-18-memo copy.md",
-    "memo/newmemo.md",
-    "gitblog/blogging/2024-09-18.md",
-    "2021-11-11-welcome-to-jekyll.markdown"
+    "Untitled.canvas"
   ]
 }
