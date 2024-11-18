@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "templates/my-template.md",
+                "file": "posts/memos/2024-11-19-1.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "my-template"
+              "title": "2024-11-19-1"
             }
           }
         ]
@@ -164,16 +164,17 @@
   },
   "active": "a0aa795d8949d0c0",
   "lastOpenFiles": [
+    "posts/gitblog/2024-11-14-241114_2.md",
+    "posts/memos/2024-11-19-1.md",
+    "posts/memos/2024-11-16-1.md",
+    "templates/my-template.md",
     "posts/ps/2024-11-16-241116_1.md",
     "templates/memo-template.md",
-    "templates/my-template.md",
-    "posts/memos/2024-11-16-1.md",
     "posts/memos/2024-09-18-1.md",
     "posts/memos",
     "posts/ps/2024-11-14-241116_1.md",
     "posts/ps",
     "posts/gitblog/2024-11-14-241116_1.md",
-    "posts/gitblog/2024-11-14-241114_2.md",
     "posts/gitblog/2024-11-14-241114_1.md",
     "posts/gitblog/2024-11-12-241112_1.md",
     "posts/gitblog/2024-09-18-memo.md",
@@ -203,7 +204,6 @@
     "gitblog/blogging/2024-11-14-241116_1.md",
     "gitblog/blogging/2024-11-12-241112_1.md",
     "gitblog/blogging/2024-11-14-241114_2.md",
-    "memo/2024-11-16-1.md",
     "스크린샷 2024-11-14 오후 6.33.16.png",
     "6484d183a1521bae752e2b411aff3759_res.jpeg",
     "Untitled.canvas"
