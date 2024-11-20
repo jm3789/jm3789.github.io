@@ -1,5 +1,5 @@
 {
   "folder": "posts/memos",
   "template": "templates/memo-template",
-  "format": "YYYY-MM-DD-1"
+  "format": "YYYY-MM-DD-YYMMDD"
 }
