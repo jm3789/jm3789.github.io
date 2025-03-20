@@ -38,6 +38,7 @@
 <meta property="og:url" content="http://localhost:4000/" />
 <meta property="og:site_name" content="Jimin’s Github Blog" />
 <meta property="og:type" content="website" />
+<link rel="next" href="http://localhost:4000/page2" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Jimin’s Github Blog" />
 <meta name="twitter:site" content="@twitter_username" />
@@ -545,6 +546,129 @@
 <div id="post-list" class="flex-grow-1 px-xl-1">
   
     <article class="card-wrapper card">
+      <a href="/posts/250319/" class="post-preview row g-0 flex-md-row-reverse">
+        
+
+        
+
+        <div class="col-md-12">
+          <div class="card-body d-flex flex-column">
+            <h1 class="card-title my-2 mt-md-0">배낭 문제 (0/1 Knapsack Problem)</h1>
+
+            <div class="card-text content mt-0 mb-3">
+              <p>코딩 테스트를 치르다가 배낭 같아보이는 문제를 만났지만 손도 못 대고 시험이 끝나버렸다. 배낭 알고리즘을 이해만 하고 넘어갔지, 직접 풀어본 적이 없었던 것 같다. 그래서 문제 몇 개를 직접 풀어보며 복습했다. 회고를 위해 이 글을 작성한다.
+
+배낭 문제란?
+
+배낭 문제(Knapsack Problem)는 다음과 같은 상황을 가정하는 문제이다.
+
+
+  ...</p>
+            </div>
+
+            <div class="post-meta flex-grow-1 d-flex align-items-end">
+              <div class="me-auto">
+                <!-- posted date -->
+                <i class="far fa-calendar fa-fw me-1"></i>
+                <!--
+  Date format snippet
+  See: ${JS_ROOT}/utils/locale-dateime.js
+-->
+
+
+
+
+<time
+  
+  data-ts="1742373432"
+  data-df="ll"
+  
+>
+  Mar 19, 2025
+</time>
+
+
+                <!-- categories -->
+                
+                  <i class="far fa-folder-open fa-fw me-1"></i>
+                  <span class="categories">
+                    
+                      PS
+                  </span>
+                
+              </div>
+
+              
+            </div>
+            <!-- .post-meta -->
+          </div>
+          <!-- .card-body -->
+        </div>
+      </a>
+    </article>
+  
+    <article class="card-wrapper card">
+      <a href="/posts/241122/" class="post-preview row g-0 flex-md-row-reverse">
+        
+
+        
+
+        <div class="col-md-12">
+          <div class="card-body d-flex flex-column">
+            <h1 class="card-title my-2 mt-md-0">[Go] API 계층별 역할</h1>
+
+            <div class="card-text content mt-0 mb-3">
+              <p>이번 글에서는 병원 문진(question) 목록을 조회하는 API를 수정하는 과정에서 공부한 것들을 기록한다. 라우터-컨트롤러-서비스-레포지토리-DB로 이어지는 구조를 기반으로, 각 계층이 어떤 역할을 했는지 살펴보겠다.
+
+
+
+1. 라우터 (Router)
+
+라우터는 클라이언트 요청을 받아서 적절한 컨트롤러로 전달하는 역할을 한다. 병원 문진 조회 AP...</p>
+            </div>
+
+            <div class="post-meta flex-grow-1 d-flex align-items-end">
+              <div class="me-auto">
+                <!-- posted date -->
+                <i class="far fa-calendar fa-fw me-1"></i>
+                <!--
+  Date format snippet
+  See: ${JS_ROOT}/utils/locale-dateime.js
+-->
+
+
+
+
+<time
+  
+  data-ts="1732202422"
+  data-df="ll"
+  
+>
+  Nov 22, 2024
+</time>
+
+
+                <!-- categories -->
+                
+                  <i class="far fa-folder-open fa-fw me-1"></i>
+                  <span class="categories">
+                    
+                      Memos
+                  </span>
+                
+              </div>
+
+              
+            </div>
+            <!-- .post-meta -->
+          </div>
+          <!-- .card-body -->
+        </div>
+      </a>
+    </article>
+  
+    <article class="card-wrapper card">
       <a href="/posts/241121/" class="post-preview row g-0 flex-md-row-reverse">
         
 
@@ -1021,63 +1145,82 @@ Disqus를 이용해 댓글 기능을 추가하여 블로그를 Customize함.
       </a>
     </article>
   
-    <article class="card-wrapper card">
-      <a href="/posts/new_post/" class="post-preview row g-0 flex-md-row-reverse">
-        
-
-        
-
-        <div class="col-md-12">
-          <div class="card-body d-flex flex-column">
-            <h1 class="card-title my-2 mt-md-0">jekyll로 포스팅하기</h1>
-
-            <div class="card-text content mt-0 mb-3">
-              <p>첫 포스트</p>
-            </div>
-
-            <div class="post-meta flex-grow-1 d-flex align-items-end">
-              <div class="me-auto">
-                <!-- posted date -->
-                <i class="far fa-calendar fa-fw me-1"></i>
-                <!--
-  Date format snippet
-  See: ${JS_ROOT}/utils/locale-dateime.js
--->
-
-
-
-
-<time
-  
-  data-ts="1636628400"
-  data-df="ll"
-  
->
-  Nov 11, 2021
-</time>
-
-
-                <!-- categories -->
-                
-                  <i class="far fa-folder-open fa-fw me-1"></i>
-                  <span class="categories">
-                    
-                      Github Blog
-                  </span>
-                
-              </div>
-
-              
-            </div>
-            <!-- .post-meta -->
-          </div>
-          <!-- .card-body -->
-        </div>
-      </a>
-    </article>
-  
 </div>
 <!-- #post-list -->
+
+
+  <!-- The paginator for post list on HomgPage. -->
+
+<nav aria-label="Page Navigation">
+  <ul class="pagination align-items-center mt-4 mb-0">
+    <!-- left arrow -->
+    
+
+    <li class="page-item disabled">
+      <a class="page-link" href="#" aria-label="previous-page">
+        <i class="fas fa-angle-left"></i>
+      </a>
+    </li>
+
+    <!-- page numbers -->
+    
+    
+
+    
+      
+      
+      
+      
+      
+
+      
+
+      
+        <!-- show number -->
+        <li class="page-item  active">
+          <a
+            class="page-link"
+            href="/"
+          >1</a>
+        </li>
+      
+    
+      
+      
+      
+      
+      
+
+      
+
+      
+        <!-- show number -->
+        <li class="page-item ">
+          <a
+            class="page-link"
+            href="/page2"
+          >2</a>
+        </li>
+      
+    
+
+    <!-- mobile pagination -->
+    <li class="page-index align-middle">
+      <span>1</span>
+      <span class="text-muted">/ 2</span>
+    </li>
+
+    <!-- right arrow -->
+    
+
+    <li class="page-item ">
+      <a class="page-link" href="/page2" aria-label="next-page">
+        <i class="fas fa-angle-right"></i>
+      </a>
+    </li>
+  </ul>
+</nav>
+<!-- .pagination -->
 
 
 
@@ -1111,6 +1254,20 @@ Disqus를 이용해 댓글 기능을 추가하여 블로그를 Customize함.
         
         
         <li class="text-truncate lh-lg">
+          <a href="/posts/250319/">배낭 문제 (0/1 Knapsack Problem)</a>
+        </li>
+      
+        
+        
+        
+        <li class="text-truncate lh-lg">
+          <a href="/posts/241122/">[Go] API 계층별 역할</a>
+        </li>
+      
+        
+        
+        
+        <li class="text-truncate lh-lg">
           <a href="/posts/241121/">Go 서버에 로컬 MySQL 환경 세팅</a>
         </li>
       
@@ -1126,20 +1283,6 @@ Disqus를 이용해 댓글 기능을 추가하여 블로그를 Customize함.
         
         <li class="text-truncate lh-lg">
           <a href="/posts/241116_1/">[JS] 백준 1927. 최소 힙</a>
-        </li>
-      
-        
-        
-        
-        <li class="text-truncate lh-lg">
-          <a href="/posts/241114_2/">Obsidian에서 템플릿 활용해 글 작성하기</a>
-        </li>
-      
-        
-        
-        
-        <li class="text-truncate lh-lg">
-          <a href="/posts/241114_1/">GitHub.io 블로그에 Chirpy 테마 적용하기</a>
         </li>
       
     </ul>
@@ -1172,6 +1315,22 @@ Disqus를 이용해 댓글 기능을 추가하여 블로그를 Customize함.
         
         
 
+  
+    
+    
+    
+    
+      
+    
+  
+    
+    
+    
+    
+      
+        
+        
+
 
 
   <section>
@@ -1180,6 +1339,9 @@ Disqus를 이용해 댓글 기능을 추가하여 블로그를 Customize함.
       
         
         <a class="post-tag btn btn-outline-primary" href="/tags/js/">js</a>
+      
+        
+        <a class="post-tag btn btn-outline-primary" href="/tags/python/">python</a>
       
     </div>
   </section>
@@ -1206,7 +1368,7 @@ Disqus를 이용해 댓글 기능을 추가하여 블로그를 Customize함.
   "
 >
   <p>©
-    <time>2024</time>
+    <time>2025</time>
 
     
       <a href="https://twitter.com/username">Jimin Hong</a>.
@@ -1265,6 +1427,22 @@ Disqus를 이용해 댓글 기능을 추가하여 블로그를 Customize함.
         
         
 
+  
+    
+    
+    
+    
+      
+    
+  
+    
+    
+    
+    
+      
+        
+        
+
 
 
   <section>
@@ -1273,6 +1451,9 @@ Disqus를 이용해 댓글 기능을 추가하여 블로그를 Customize함.
       
         
         <a class="post-tag btn btn-outline-primary" href="/tags/js/">js</a>
+      
+        
+        <a class="post-tag btn btn-outline-primary" href="/tags/python/">python</a>
       
     </div>
   </section>

@@ -4,7 +4,7 @@
   <id>http://localhost:4000/</id>
   <title>Jimin's Github Blog</title>
   <subtitle>안녕하세요</subtitle>
-  <updated>2024-11-21T01:29:48+09:00</updated>
+  <updated>2025-03-20T18:20:32+09:00</updated>
   <author>
     <name>Jimin Hong</name>
     <uri>http://localhost:4000/</uri>
@@ -13,10 +13,94 @@
   <link rel="alternate" type="text/html" hreflang="ko"
     href="http://localhost:4000/"/>
   <generator uri="https://jekyllrb.com/" version="4.3.4">Jekyll</generator>
-  <rights> © 2024 Jimin Hong </rights>
+  <rights> © 2025 Jimin Hong </rights>
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>배낭 문제 (0/1 Knapsack Problem)</title>
+    <link href="http://localhost:4000/posts/250319/" rel="alternate" type="text/html" title="배낭 문제 (0/1 Knapsack Problem)" />
+    <published>2025-03-19T17:37:12+09:00</published>
+  
+    <updated>2025-03-19T17:37:12+09:00</updated>
+  
+    <id>http://localhost:4000/posts/250319/</id>
+    <content src="http://localhost:4000/posts/250319/" />
+    <author>
+      <name>Jimin Hong</name>
+    </author>
+
+  
+    
+    <category term="PS" />
+    
+  
+
+  <summary>코딩 테스트를 치르다가 배낭 같아보이는 문제를 만났지만 손도 못 대고 시험이 끝나버렸다. 배낭 알고리즘을 이해만 하고 넘어갔지, 직접 풀어본 적이 없었던 것 같다. 그래서 문제 몇 개를 직접 풀어보며 복습했다. 회고를 위해 이 글을 작성한다.
+
+배낭 문제란?
+
+배낭 문제(Knapsack Problem)는 다음과 같은 상황을 가정하는 문제이다.
+
+
+  N개의 물건이 있다.
+  각 물건은 특정한 무게(W)와 가치(V)를 가진다.
+  최대 K 무게까지 담을 수 있는 배낭이 있다.
+  배낭에 담을 수 있는 물건의 조합 중에서 가치의 합이 최대가 되도록 한다.
+
+
+점화식
+
+일반적으로 점화식은 이러한 형태다.
+dp[i][j] = max(dp[i-1][j], dp[i-1][j-w] + v)
+
+
+2차원 DP로 해결하...</summary>
+
+  </entry>
+
+  
+  <entry>
+    <title>[Go] API 계층별 역할</title>
+    <link href="http://localhost:4000/posts/241122/" rel="alternate" type="text/html" title="[Go] API 계층별 역할" />
+    <published>2024-11-22T00:20:22+09:00</published>
+  
+    <updated>2024-11-22T00:20:22+09:00</updated>
+  
+    <id>http://localhost:4000/posts/241122/</id>
+    <content src="http://localhost:4000/posts/241122/" />
+    <author>
+      <name>Jimin Hong</name>
+    </author>
+
+  
+    
+    <category term="Memos" />
+    
+  
+
+  <summary>이번 글에서는 병원 문진(question) 목록을 조회하는 API를 수정하는 과정에서 공부한 것들을 기록한다. 라우터-컨트롤러-서비스-레포지토리-DB로 이어지는 구조를 기반으로, 각 계층이 어떤 역할을 했는지 살펴보겠다.
+
+
+
+1. 라우터 (Router)
+
+라우터는 클라이언트 요청을 받아서 적절한 컨트롤러로 전달하는 역할을 한다. 병원 문진 조회 API에서는 다음과 같은 경로로 설정했다.
+
+router.GET(&amp;quot;/admin/hospitalQuestion&amp;quot;, adminHospitalController.GetHospitalQuestionList)
+
+
+라우터는 HTTP GET 메서드를 통해 병원 ID를 쿼리 파라미터로 받아 컨트롤러로 전달한다.
+
+
+
+2. 컨트롤러 (Controller)
+
+컨트롤러에서는 라우...</summary>
+
+  </entry>
 
   
   <entry>
@@ -24,7 +108,7 @@
     <link href="http://localhost:4000/posts/241121/" rel="alternate" type="text/html" title="Go 서버에 로컬 MySQL 환경 세팅" />
     <published>2024-11-21T01:19:00+09:00</published>
   
-    <updated>2024-11-21T01:19:00+09:00</updated>
+    <updated>2024-11-21T01:42:44+09:00</updated>
   
     <id>http://localhost:4000/posts/241121/</id>
     <content src="http://localhost:4000/posts/241121/" />
@@ -130,77 +214,6 @@ func (p *Person) Greet() string {
 최소 힙 (Min Heap)
 
 최소 힙은 부모 노드가 자식 노드보다 항상 작은 값을 가지는 완전 이진 트리이다. 최상단의 루트 노드는 항상 트리에서 가장 작은 값을 가진다. 새로운 요소가 추가되면 upheap 과정을 수행하고, 루트에 있던 최솟값이 삭제되면 가장 마지막에 있던 요소를 맨 앞으로 이동시킨 후 downheap 과정을 수행하여 힙의 규칙을 유지한다...</summary>
-
-  </entry>
-
-  
-  <entry>
-    <title>Obsidian에서 템플릿 활용해 글 작성하기</title>
-    <link href="http://localhost:4000/posts/241114_2/" rel="alternate" type="text/html" title="Obsidian에서 템플릿 활용해 글 작성하기" />
-    <published>2024-11-14T19:20:00+09:00</published>
-  
-    <updated>2024-11-14T19:20:00+09:00</updated>
-  
-    <id>http://localhost:4000/posts/241114_2/</id>
-    <content src="http://localhost:4000/posts/241114_2/" />
-    <author>
-      <name>Jimin Hong</name>
-    </author>
-
-  
-    
-    <category term="Github Blog" />
-    
-  
-
-  <summary>깃블로그에 포스팅할 때 Obsidian을 활용해 보기로 했다. 직무 특강에서 멘토님이 사용하시는 모습을 보고 매우 편리해 보였기 때문이다.
-
-일단 마크다운 작성이 쉬워서 작성 내용을 직관적으로 미리 볼 수 있었다. 그리고 템플릿 기능 덕분에 메모 버튼을 누르면 현재 날짜와 시간이 자동으로 입력된 양식이 생성되어 깃블로그에 글을 작성할 때 유용할 것 같았다.
-
-
-
-1. Obsidian의 Vault 설정
-
-블로그의 _posts 디렉토리를 Obsidian의 Vault로 가져왔다. 처음에는 블로그의 루트 디렉토리를 그대로 Vault로 지정하고 글을 작성했으나 파일의 수가 너무 많아서 복잡해졌다. _posts 디렉토리만 가져와도 잘 동작하는 것 같아서 이렇게 했다.
-
-1.1. 파일명 규칙 문제
-
-포스트가 블로그...</summary>
-
-  </entry>
-
-  
-  <entry>
-    <title>GitHub.io 블로그에 Chirpy 테마 적용하기</title>
-    <link href="http://localhost:4000/posts/241114_1/" rel="alternate" type="text/html" title="GitHub.io 블로그에 Chirpy 테마 적용하기" />
-    <published>2024-11-14T19:05:00+09:00</published>
-  
-    <updated>2024-11-14T19:05:00+09:00</updated>
-  
-    <id>http://localhost:4000/posts/241114_1/</id>
-    <content src="http://localhost:4000/posts/241114_1/" />
-    <author>
-      <name>Jimin Hong</name>
-    </author>
-
-  
-    
-    <category term="Github Blog" />
-    
-  
-
-  <summary>블로그 테마는 Chirpy 테마로 하기로 했다. 인기있는 테마기도 하고, 이쁘고 깔끔해보였기 때문이다.
-
-아래는 Chirpy 테마(자꾸 크리스피라고 읽게 된다) 적용 과정과 겪은 문제들을 정리한 내용이다. 반성해야 할 점은 공식 문서 확인을 안하고 진행했다는 점이다.
-
-
-무턱대고 한 것치곤 돌아가긴 하는데, 조만간 공식 가이드를 참조해서 다시 진행할 생각이다…혹시 읽고 있는 사람이 있다면 따라하지 마시길.
-
-1. Chirpy 테마 다운로드
-Chirpy 테마를 적용하기 위해 Chirpy GitHub 저장소에서 zip 파일을 다운로드하고, 압축을 풀었다.
-
-2. Chirpy 파일 복사
-기존에 작성했던 Post 파일만 남기고 나머지 파일들을 전부 덮어쓰면 될 거라고 생각했는데, 기존 테마와 충돌이 발생했다....</summary>
 
   </entry>
 
