@@ -4,7 +4,7 @@
   <id>http://localhost:4000/</id>
   <title>Jimin's Github Blog</title>
   <subtitle>안녕하세요</subtitle>
-  <updated>2025-03-20T18:20:32+09:00</updated>
+  <updated>2025-03-23T23:24:14+09:00</updated>
   <author>
     <name>Jimin Hong</name>
     <uri>http://localhost:4000/</uri>
@@ -17,6 +17,51 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>소프트웨어 마에스트로 16기 면접 후기</title>
+    <link href="http://localhost:4000/posts/250323/" rel="alternate" type="text/html" title="소프트웨어 마에스트로 16기 면접 후기" />
+    <published>2025-03-23T22:25:41+09:00</published>
+  
+    <updated>2025-03-23T22:25:41+09:00</updated>
+  
+    <id>http://localhost:4000/posts/250323/</id>
+    <content src="http://localhost:4000/posts/250323/" />
+    <author>
+      <name>Jimin Hong</name>
+    </author>
+
+  
+    
+    <category term="Memos" />
+    
+  
+
+  <summary>운 좋게 소마 최종 면접까지 가게 되었다! 내 머릿속에서 소마의 이미지는 엄청난 실력자 분들이 굉장한 서비스를 만들어내는 곳이었다보니, 내가 최종 면접까지 가게 되었다는 게 믿기지 않았다. 꼭 합격하고 싶었다. 그래서 일주일 정도 열심히 준비했다.
+
+면접 장소 및 일정
+
+
+  
+    위치: 포스트타워마포 (마포대로 89, 서울마포우체국) 7층
+  
+  
+    일시: 3월 23일 (토) 오전 10시 ~ 11시 15분
+  
+  
+    입실: 면접 시작 30분 전부터 대기장 입실 가능
+  
+  
+    준비물: 주민등록증 필수! 물도 챙겨가면 좋다 (면접 중간에 마실 수 있음)
+  
+
+
+면접 시작 전
+
+7층에 도착해서 엘리베이터 문이 열리자마자 바로 앞에 스태프분들이 앉아 계셨다. 이름을 물어보셔서 말...</summary>
+
+  </entry>
 
   
   <entry>
@@ -63,11 +108,11 @@ dp[i][j] = max(dp[i-1][j], dp[i-1][j-w] + v)
 
   
   <entry>
-    <title>[Go] API 계층별 역할</title>
-    <link href="http://localhost:4000/posts/241122/" rel="alternate" type="text/html" title="[Go] API 계층별 역할" />
+    <title>API 계층별 역할</title>
+    <link href="http://localhost:4000/posts/241122/" rel="alternate" type="text/html" title="API 계층별 역할" />
     <published>2024-11-22T00:20:22+09:00</published>
   
-    <updated>2024-11-22T00:20:22+09:00</updated>
+    <updated>2025-03-20T19:05:27+09:00</updated>
   
     <id>http://localhost:4000/posts/241122/</id>
     <content src="http://localhost:4000/posts/241122/" />
@@ -180,40 +225,6 @@ func (p *Person) Greet() string {
 
 
 메소드(Method): Go의 메소드에는 함수명 앞...</summary>
-
-  </entry>
-
-  
-  <entry>
-    <title>[JS] 백준 1927. 최소 힙</title>
-    <link href="http://localhost:4000/posts/241116_1/" rel="alternate" type="text/html" title="[JS] 백준 1927. 최소 힙" />
-    <published>2024-11-16T00:15:00+09:00</published>
-  
-    <updated>2024-11-16T00:15:00+09:00</updated>
-  
-    <id>http://localhost:4000/posts/241116_1/</id>
-    <content src="http://localhost:4000/posts/241116_1/" />
-    <author>
-      <name>Jimin Hong</name>
-    </author>
-
-  
-    
-    <category term="PS" />
-    
-  
-
-  <summary>백준 1927. 최소 힙
-
-힙 (Heap)
-
-힙은 이진 트리의 일종으로, 부모 노드와 자식 노드 간의 특정 관계를 유지하는 자료 구조이다. 힙은 완전 이진 트리 구조를 가지는데, 이는 트리가 항상 왼쪽부터 순차적으로 채워진다는 의미이다. 그래서 트리를 배열로 쉽게 표현하고 관리할 수 있다.
-
-힙에는 두 가지 종류가 있다. 최소 힙과 최대 힙이다.
-
-최소 힙 (Min Heap)
-
-최소 힙은 부모 노드가 자식 노드보다 항상 작은 값을 가지는 완전 이진 트리이다. 최상단의 루트 노드는 항상 트리에서 가장 작은 값을 가진다. 새로운 요소가 추가되면 upheap 과정을 수행하고, 루트에 있던 최솟값이 삭제되면 가장 마지막에 있던 요소를 맨 앞으로 이동시킨 후 downheap 과정을 수행하여 힙의 규칙을 유지한다...</summary>
 
   </entry>
 

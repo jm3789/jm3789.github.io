@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "posts/ps/2025-03-19-250319.md",
+                "file": "posts/memos/2025-03-23-250323.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2025-03-19-250319"
+              "title": "2025-03-23-250323"
             }
           }
         ]
@@ -166,11 +166,12 @@
   "active": "e35687ec599ef7d2",
   "lastOpenFiles": [
     "posts/memos/2024-11-22-241122.md",
-    "posts/ps/2025-03-19-250319.md",
     "posts/memos/2024-11-21-241121.md",
-    "posts/ps/2024-11-16-241116_1.md",
     "posts/memos/2024-11-19-241119.md",
     "posts/memos/2024-09-18-1.md",
+    "posts/memos/2025-03-23-250323.md",
+    "posts/ps/2025-03-19-250319.md",
+    "posts/ps/2024-11-16-241116_1.md",
     "templates/my-template.md",
     "Untitled.md",
     "posts/ps/Untitled.md",
@@ -199,7 +200,6 @@
     "gitblog/blogging/2024-11-14-241114_1.md",
     "posts/blogging/2024-11-14-241116_1.md",
     "posts/blogging/2024-11-14-241114_2.md",
-    "posts/blogging/2024-11-14-241114_1.md",
     "posts/blogging/2021-11-11-welcome-to-jekyll.markdown",
     "posts/blogging",
     "posts",
