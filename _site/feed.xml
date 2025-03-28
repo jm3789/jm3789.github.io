@@ -4,7 +4,7 @@
   <id>http://localhost:4000/</id>
   <title>Jimin's Github Blog</title>
   <subtitle>안녕하세요</subtitle>
-  <updated>2025-03-24T22:47:38+09:00</updated>
+  <updated>2025-03-28T12:09:52+09:00</updated>
   <author>
     <name>Jimin Hong</name>
     <uri>http://localhost:4000/</uri>
@@ -20,11 +20,55 @@
 
   
   <entry>
+    <title>[Python] 가장 긴 증가하는 부분 수열 (LIS)</title>
+    <link href="http://localhost:4000/posts/250328/" rel="alternate" type="text/html" title="[Python] 가장 긴 증가하는 부분 수열 (LIS)" />
+    <published>2025-03-27T23:44:54+09:00</published>
+  
+    <updated>2025-03-27T23:44:54+09:00</updated>
+  
+    <id>http://localhost:4000/posts/250328/</id>
+    <content src="http://localhost:4000/posts/250328/" />
+    <author>
+      <name>Jimin Hong</name>
+    </author>
+
+  
+    
+    <category term="PS" />
+    
+  
+
+  <summary>LIS(Longest Increasing Subsequence) 알고리즘
+
+주어진 수열에서 일부 원소를 제거해 순서를 유지한 채 가장 길게 증가하는 부분 수열을 찾는 문제다.
+O(N^2) 풀이(DP)와 O(N log N) 풀이(이분 탐색)가 있다.
+
+
+
+1️⃣ DP 풀이 (O(N^2))
+
+문제: 백준 11053번
+
+# dp
+N = int(input())
+dp = [0 for _ in range(N+1)]  
+# dp[i]: i번째 원소를 마지막으로 하는 증가하는 부분 수열들 중 가장 긴 것의 길이
+
+A = [0] + list(map(int, input().split()))
+for i in range(1, N+1):
+    max_num = 0
+    for j in range(i):
+        if...</summary>
+
+  </entry>
+
+  
+  <entry>
     <title>소프트웨어 마에스트로 16기 면접 후기</title>
     <link href="http://localhost:4000/posts/250323/" rel="alternate" type="text/html" title="소프트웨어 마에스트로 16기 면접 후기" />
     <published>2025-03-23T22:25:41+09:00</published>
   
-    <updated>2025-03-23T22:25:41+09:00</updated>
+    <updated>2025-03-24T22:49:04+09:00</updated>
   
     <id>http://localhost:4000/posts/250323/</id>
     <content src="http://localhost:4000/posts/250323/" />
@@ -183,48 +227,6 @@ Type = &amp;quot;mysql&amp;quot;
 User = &amp;quot;admin&amp;quot; 
 Password = &amp;quot;안알랴줌&amp;quot; 
 Host = &amp;quot;안...</summary>
-
-  </entry>
-
-  
-  <entry>
-    <title>Go 언어와 서버 실행하기</title>
-    <link href="http://localhost:4000/posts/241119/" rel="alternate" type="text/html" title="Go 언어와 서버 실행하기" />
-    <published>2024-11-19T00:55:00+09:00</published>
-  
-    <updated>2024-11-19T00:55:00+09:00</updated>
-  
-    <id>http://localhost:4000/posts/241119/</id>
-    <content src="http://localhost:4000/posts/241119/" />
-    <author>
-      <name>Jimin Hong</name>
-    </author>
-
-  
-    
-    <category term="Memos" />
-    
-  
-
-  <summary>Go 언어란?
-
-Go 언어는 Google에서 개발한 오픈 소스 프로그래밍 언어이다. 간결한 문법을 바탕으로 효율적인 개발이 가능하다.
-
-Go는 절차적 언어이면서도 객체지향 프로그래밍 요소를 일부 포함한다. 전통적인 객체지향 요소인 클래스나 상속이 없다. 대신 구조체와 메소드, 인터페이스를 통해 객체지향 프로그래밍을 지원한다.
-
-구조체(Structs): Go에서는 클래스가 없는 대신 구조체에 메서드를 정의함으로써 객체와 비슷한 구성을 만들 수 있다.
-
-type Person struct {
-	Name string
-	Age  int
-}  
-
-func (p *Person) Greet() string {
-	return &amp;quot;Hello, &amp;quot; + p.Name 
-}
-
-
-메소드(Method): Go의 메소드에는 함수명 앞...</summary>
 
   </entry>
 
