@@ -4,7 +4,7 @@
   <id>http://localhost:4000/</id>
   <title>Jimin's Github Blog</title>
   <subtitle>안녕하세요</subtitle>
-  <updated>2025-03-28T15:03:41+09:00</updated>
+  <updated>2025-03-28T15:10:16+09:00</updated>
   <author>
     <name>Jimin Hong</name>
     <uri>http://localhost:4000/</uri>
@@ -68,7 +68,7 @@ for i in range(1, N+1):
     <link href="http://localhost:4000/posts/250323/" rel="alternate" type="text/html" title="소프트웨어 마에스트로 16기 면접 후기(탈락)" />
     <published>2025-03-23T22:25:41+09:00</published>
   
-    <updated>2025-03-24T22:49:04+09:00</updated>
+    <updated>2025-03-28T15:04:54+09:00</updated>
   
     <id>http://localhost:4000/posts/250323/</id>
     <content src="http://localhost:4000/posts/250323/" />
