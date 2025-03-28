@@ -22,7 +22,7 @@
             }
           },
           {
-            "id": "e35687ec599ef7d2",
+            "id": "c4b91bc92f86d38c",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -36,7 +36,7 @@
             }
           },
           {
-            "id": "5772a89308556535",
+            "id": "181f557396a6be29",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -50,7 +50,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -192,12 +192,13 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "e35687ec599ef7d2",
+  "active": "181f557396a6be29",
   "lastOpenFiles": [
-    "posts/memos/2025-03-23-250323.md",
     "posts/gitblog/2024-11-14-241114_2.md",
     "posts/gitblog/2024-11-14-241114_1.md",
+    "posts/memos/2025-03-23-250323.md",
     "images/스크린샷2024-11-14오후6.33.16.png",
+    "images/스크린샷2024-11-14오후6.33.16 1.png",
     "images/스크린샷2025-03-28오후2.33.46.png",
     "posts/memos/2024-11-22-241122.md",
     "posts/gitblog/2024-11-12-241112_1.md",
