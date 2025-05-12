@@ -4,7 +4,7 @@
   <id>http://localhost:4000/</id>
   <title>Jimin's Github Blog</title>
   <subtitle>안녕하세요</subtitle>
-  <updated>2025-03-28T15:36:44+09:00</updated>
+  <updated>2025-05-12T17:24:36+09:00</updated>
   <author>
     <name>Jimin Hong</name>
     <uri>http://localhost:4000/</uri>
@@ -17,6 +17,90 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>파이썬의 선: pythonic함이란?</title>
+    <link href="http://localhost:4000/posts/250422/" rel="alternate" type="text/html" title="파이썬의 선: pythonic함이란?" />
+    <published>2025-04-22T17:48:45+09:00</published>
+  
+    <updated>2025-04-22T17:48:45+09:00</updated>
+  
+    <id>http://localhost:4000/posts/250422/</id>
+    <content src="http://localhost:4000/posts/250422/" />
+    <author>
+      <name>Jimin Hong</name>
+    </author>
+
+  
+    
+    <category term="Memos" />
+    
+  
+
+  <summary>평화롭던 어느 날-
+챗지피티한테서 미션을 받았다.
+
+
+  Zen of Python이라는 철학도 있어요. import this를 실행하면 볼 수 있답니다!
+
+
+
+그래서 해봤다. 그랬더니 파이썬의 추구미(?)를 담은 시가 한 편 나왔다!
+
+The Zen of Python, by Tim Peters
+
+Beautiful is better than ugly.
+Explicit is better than implicit.
+Simple is better than complex.
+Complex is better than complicated.
+Flat is better than nested.
+Sparse is better than dense.
+Readability counts.
+Special cases aren&amp;#39;t s...</summary>
+
+  </entry>
+
+  
+  <entry>
+    <title>가상 메모리와 페이지 교체 알고리즘</title>
+    <link href="http://localhost:4000/posts/250421/" rel="alternate" type="text/html" title="가상 메모리와 페이지 교체 알고리즘" />
+    <published>2025-04-21T01:57:17+09:00</published>
+  
+    <updated>2025-04-21T01:57:17+09:00</updated>
+  
+    <id>http://localhost:4000/posts/250421/</id>
+    <content src="http://localhost:4000/posts/250421/" />
+    <author>
+      <name>Jimin Hong</name>
+    </author>
+
+  
+    
+    <category term="CS" />
+    
+  
+
+  <summary>정보처리기사 실기를 준비하면서 운영체제를 간략히 복습했다.
+
+
+
+1. 운영체제 메모리 관리
+
+
+  커널 적재(load)
+  컴퓨터가 부팅되어 하드디스크나 SSD에 저장되어 있는 운영체제의 커널이
+RAM(주기억장치)으로 복사되어 올라오는 것.
+
+
+가상 메모리(Virtual Memory)
+CPU는 RAM에 있는 데이터에만 직접 접근할 수 있다. 그래서 안 쓰는 애는 디스크에 잠깐 내려놓고, 필요해지면 다시 RAM에 올려서 쓰는 방식으로 데이터에 접근한다. 근데 운영체제는 마치 모든 게 메모리에 있는 것처럼 속여주고, 이것이 Virtual Memory의 개념이다. CPU가 메모리에 접근하기 위해서는 가상 메모리 주소를 실제 메모리 주소(물리 주소)로 변환하는 과정을 반복해야 한다.
+
+주소 변환
+
+  페이지 ...</summary>
+
+  </entry>
 
   
   <entry>
@@ -68,7 +152,7 @@ for i in range(1, N+1):
     <link href="http://localhost:4000/posts/250323/" rel="alternate" type="text/html" title="소프트웨어 마에스트로 16기 면접 후기(탈락)" />
     <published>2025-03-23T22:25:41+09:00</published>
   
-    <updated>2025-03-28T15:04:54+09:00</updated>
+    <updated>2025-03-28T15:37:09+09:00</updated>
   
     <id>http://localhost:4000/posts/250323/</id>
     <content src="http://localhost:4000/posts/250323/" />
@@ -147,86 +231,6 @@ dp[i][j] = max(dp[i-1][j], dp[i-1][j-w] + v)
 
 
 2차원 DP로 해결하...</summary>
-
-  </entry>
-
-  
-  <entry>
-    <title>API 계층별 역할</title>
-    <link href="http://localhost:4000/posts/241122/" rel="alternate" type="text/html" title="API 계층별 역할" />
-    <published>2024-11-22T00:20:22+09:00</published>
-  
-    <updated>2025-03-20T19:05:27+09:00</updated>
-  
-    <id>http://localhost:4000/posts/241122/</id>
-    <content src="http://localhost:4000/posts/241122/" />
-    <author>
-      <name>Jimin Hong</name>
-    </author>
-
-  
-    
-    <category term="Memos" />
-    
-  
-
-  <summary>이번 글에서는 병원 문진(question) 목록을 조회하는 API를 수정하는 과정에서 공부한 것들을 기록한다. 라우터-컨트롤러-서비스-레포지토리-DB로 이어지는 구조를 기반으로, 각 계층이 어떤 역할을 했는지 살펴보겠다.
-
-
-
-1. 라우터 (Router)
-
-라우터는 클라이언트 요청을 받아서 적절한 컨트롤러로 전달하는 역할을 한다. 병원 문진 조회 API에서는 다음과 같은 경로로 설정했다.
-
-router.GET(&amp;quot;/admin/hospitalQuestion&amp;quot;, adminHospitalController.GetHospitalQuestionList)
-
-
-라우터는 HTTP GET 메서드를 통해 병원 ID를 쿼리 파라미터로 받아 컨트롤러로 전달한다.
-
-
-
-2. 컨트롤러 (Controller)
-
-컨트롤러에서는 라우...</summary>
-
-  </entry>
-
-  
-  <entry>
-    <title>Go 서버에 로컬 MySQL 환경 세팅</title>
-    <link href="http://localhost:4000/posts/241121/" rel="alternate" type="text/html" title="Go 서버에 로컬 MySQL 환경 세팅" />
-    <published>2024-11-21T01:19:00+09:00</published>
-  
-    <updated>2024-11-21T01:42:44+09:00</updated>
-  
-    <id>http://localhost:4000/posts/241121/</id>
-    <content src="http://localhost:4000/posts/241121/" />
-    <author>
-      <name>Jimin Hong</name>
-    </author>
-
-  
-    
-    <category term="Memos" />
-    
-  
-
-  <summary>저번 편에서 이어진다.  
-이번에는 AWS RDS에 연결되지 않는 상황에서 로컬 MySQL 환경을 설정하고 테스트한 과정을 정리해본다. 처음부터 직접 서버를 세팅하는 상황이 아니다보니, 서버를 다뤄본 경험이 부족한 나로서는 이게 제대로 공부되는 게 맞나 싶기도 하다. 그래도 기록을 남겨본다.
-
-
-
-문제 상황
-
-로컬 환경에서 서버를 실행하던 중 transaction is not initialized 오류를 만났다. 아직 데이터베이스와 연결되지 않은 상태에서 발생한 문제로 추정된다.
-
-conf.ini 파일은 다음과 같이 설정되어 있었다.
-[DebugDatabase] 
-NumberOfDisk = 1 
-Type = &amp;quot;mysql&amp;quot; 
-User = &amp;quot;admin&amp;quot; 
-Password = &amp;quot;안알랴줌&amp;quot; 
-Host = &amp;quot;안...</summary>
 
   </entry>
 
