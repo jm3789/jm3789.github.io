@@ -4,7 +4,7 @@
   <id>http://localhost:4000/</id>
   <title>Jimin's Github Blog</title>
   <subtitle>안녕하세요</subtitle>
-  <updated>2025-05-12T17:34:19+09:00</updated>
+  <updated>2025-05-17T16:28:56+09:00</updated>
   <author>
     <name>Jimin Hong</name>
     <uri>http://localhost:4000/</uri>
@@ -17,6 +17,93 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>다익스트라(Dijkstra) 알고리즘</title>
+    <link href="http://localhost:4000/posts/250516/" rel="alternate" type="text/html" title="다익스트라(Dijkstra) 알고리즘" />
+    <published>2025-05-16T15:38:22+09:00</published>
+  
+    <updated>2025-05-16T15:38:22+09:00</updated>
+  
+    <id>http://localhost:4000/posts/250516/</id>
+    <content src="http://localhost:4000/posts/250516/" />
+    <author>
+      <name>Jimin Hong</name>
+    </author>
+
+  
+    
+    <category term="PS" />
+    
+  
+
+  <summary>다익스트라 알고리즘은 하나의 정점에서 출발해 다른 모든 정점까지의 최단거리를 구하는 알고리즘이다. 대표적인 그리디 알고리즘 중 하나다. 모든 간선의 가중치가 0 이상의 양수일 때 사용할 수 있다.
+
+백준 1753. 최단경로
+
+🧠 과정
+
+d 리스트에는 출발점으로부터 각 노드까지의 최단 거리가 저장된다.
+
+
+  모든 노드의 거리를 무한대(inf)로 초기화하고, 시작 노드의 인덱스(노드 번호와 동일)의 값만 0으로 설정한다.
+  이후 아직 방문하지 않은 노드들 중에서, 현재 최단거리가 가장 짧은(=출발점으로부터 가장 가까운, d에 들어가있는 값이 가장 작은) 노드 A를 선택한다.
+  노드 A와 연결된 모든 노드 B에 대해, d[A] + (A와 B 사이의 거리) 가 d[B]보다 작으면, d[B]를 해당 값으로...</summary>
+
+  </entry>
+
+  
+  <entry>
+    <title>DFS 트리 순회</title>
+    <link href="http://localhost:4000/posts/250514/" rel="alternate" type="text/html" title="DFS 트리 순회" />
+    <published>2025-05-14T15:52:41+09:00</published>
+  
+    <updated>2025-05-14T15:52:41+09:00</updated>
+  
+    <id>http://localhost:4000/posts/250514/</id>
+    <content src="http://localhost:4000/posts/250514/" />
+    <author>
+      <name>Jimin Hong</name>
+    </author>
+
+  
+    
+    <category term="PS" />
+    
+  
+
+  <summary>백준 1991. 트리 순회
+
+DFS로 구현했다.
+
+
+  전위: 루트가 우선. 루트 - 왼쪽자식 - 오른쪽자식
+  중위: 왼쪽자식 - 루트 - 오른쪽자식
+  후위: 루트가 마지막. 왼쪽자식 - 오른쪽자식 - 루트
+
+
+
+
+
+
+코드
+
+def dfs_prefix(node):
+    if node == &amp;#39;.&amp;#39;:
+        return
+    print(node, end=&amp;#39;&amp;#39;)
+    dfs_prefix(node_dict[node][0])
+    dfs_prefix(node_dict[node][1])
+
+def dfs_infix(node):
+    if node == &amp;#39;.&amp;#39;:
+        return
+    dfs_infix(node_dict[node][0])
+    print(node, end=&amp;#39;&amp;#39;)
+   ...</summary>
+
+  </entry>
 
   
   <entry>
@@ -67,7 +154,7 @@ Special cases aren&amp;#39;t s...</summary>
     <link href="http://localhost:4000/posts/250421/" rel="alternate" type="text/html" title="가상 메모리와 페이지 교체 알고리즘" />
     <published>2025-04-21T01:57:17+09:00</published>
   
-    <updated>2025-04-21T01:57:17+09:00</updated>
+    <updated>2025-05-12T17:35:17+09:00</updated>
   
     <id>http://localhost:4000/posts/250421/</id>
     <content src="http://localhost:4000/posts/250421/" />
@@ -143,94 +230,6 @@ for i in range(1, N+1):
     max_num = 0
     for j in range(i):
         if...</summary>
-
-  </entry>
-
-  
-  <entry>
-    <title>소프트웨어 마에스트로 16기 면접 후기(탈락)</title>
-    <link href="http://localhost:4000/posts/250323/" rel="alternate" type="text/html" title="소프트웨어 마에스트로 16기 면접 후기(탈락)" />
-    <published>2025-03-23T22:25:41+09:00</published>
-  
-    <updated>2025-03-28T15:37:09+09:00</updated>
-  
-    <id>http://localhost:4000/posts/250323/</id>
-    <content src="http://localhost:4000/posts/250323/" />
-    <author>
-      <name>Jimin Hong</name>
-    </author>
-
-  
-    
-    <category term="Memos" />
-    
-  
-
-  <summary>운 좋게 소마 최종 면접까지 가게 되었다! 내 머릿속에서 소마의 이미지는 엄청난 실력자 분들이 굉장한 서비스를 만들어내는 곳이었다보니, 내가 최종 면접까지 가게 되었다는 게 믿기지 않았다. 꼭 합격하고 싶었다. 그래서 일주일 정도 열심히 준비했다.
-
-면접 장소 및 일정
-
-
-  
-    위치: 포스트타워마포 (마포대로 89, 서울마포우체국) 7층
-  
-  
-    일시: 3월 23일 (일) 오전 10시 ~ 11시 15분
-  
-  
-    입실: 면접 시작 30분 전부터 대기장 입실 가능
-  
-  
-    준비물: 주민등록증 필수, 물도 챙겨가면 좋다 (면접 중간에 마실 수 있음)
-  
-
-
-면접 시작 전
-
-7층에 도착해서 엘리베이터 문이 열리자마자 바로 앞에 스태프분들이 앉아 계셨다. 이름을 물어보셔서 말...</summary>
-
-  </entry>
-
-  
-  <entry>
-    <title>배낭 문제 (0/1 Knapsack Problem)</title>
-    <link href="http://localhost:4000/posts/250319/" rel="alternate" type="text/html" title="배낭 문제 (0/1 Knapsack Problem)" />
-    <published>2025-03-19T17:37:12+09:00</published>
-  
-    <updated>2025-03-19T17:37:12+09:00</updated>
-  
-    <id>http://localhost:4000/posts/250319/</id>
-    <content src="http://localhost:4000/posts/250319/" />
-    <author>
-      <name>Jimin Hong</name>
-    </author>
-
-  
-    
-    <category term="PS" />
-    
-  
-
-  <summary>코딩 테스트를 치르다가 배낭 같아보이는 문제를 만났지만 손도 못 대고 시험이 끝나버렸다. 배낭 알고리즘을 이해만 하고 넘어갔지, 직접 풀어본 적이 없었던 것 같다. 그래서 문제 몇 개를 직접 풀어보며 복습했다. 회고를 위해 이 글을 작성한다.
-
-배낭 문제란?
-
-배낭 문제(Knapsack Problem)는 다음과 같은 상황을 가정하는 문제이다.
-
-
-  N개의 물건이 있다.
-  각 물건은 특정한 무게(W)와 가치(V)를 가진다.
-  최대 K 무게까지 담을 수 있는 배낭이 있다.
-  배낭에 담을 수 있는 물건의 조합 중에서 가치의 합이 최대가 되도록 한다.
-
-
-점화식
-
-일반적으로 점화식은 이러한 형태다.
-dp[i][j] = max(dp[i-1][j], dp[i-1][j-w] + v)
-
-
-2차원 DP로 해결하...</summary>
 
   </entry>
 
