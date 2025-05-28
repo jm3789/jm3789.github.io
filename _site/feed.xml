@@ -4,7 +4,7 @@
   <id>http://localhost:4000/</id>
   <title>Jimin's Github Blog</title>
   <subtitle>안녕하세요</subtitle>
-  <updated>2025-05-17T16:33:03+09:00</updated>
+  <updated>2025-05-29T08:41:30+09:00</updated>
   <author>
     <name>Jimin Hong</name>
     <uri>http://localhost:4000/</uri>
@@ -17,6 +17,40 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>프로세스와 스케줄링 기법</title>
+    <link href="http://localhost:4000/posts/250529/" rel="alternate" type="text/html" title="프로세스와 스케줄링 기법" />
+    <published>2025-05-28T23:47:22+09:00</published>
+  
+    <updated>2025-05-28T23:47:22+09:00</updated>
+  
+    <id>http://localhost:4000/posts/250529/</id>
+    <content src="http://localhost:4000/posts/250529/" />
+    <author>
+      <name>Jimin Hong</name>
+    </author>
+
+  
+    
+    <category term="CS" />
+    
+  
+
+  <summary>프로세스와 스레드
+
+프로세스(process)
+
+프로세스는 프로그램이 CPU(프로세서)에서 실행될 수 있도록 메모리에 적재된 상태를 말한다. 각 프로세스는 낮은 주소에서 높은 주소로 올라가는 순서대로, Code, Data, Heap, Stack 영역으로 나뉜다.
+
+
+  Code 영역: 실행할 프로그램의 코드가 저장된다.
+  Data 영역: 프로그램의 전역변수와 정적변수가 저장된다.
+  Heap 영역: 사용자의 동적할당에 사용된다. 런타임에 크기가 결정된다(확장 가능). 낮은 주소에서 높은 주소로 올라간다.
+  Stack 영역: 지역변수와 매개변수가 저장된다. 컴파일 타임에 크기가 결정되며, 높은 주소에서 낮은 주소로 내려간다(+ 과거에는 영역을 누가 침범하느냐에 따라 heap overflow, stack...</summary>
+
+  </entry>
 
   
   <entry>
@@ -154,7 +188,7 @@ Special cases aren&amp;#39;t s...</summary>
     <link href="http://localhost:4000/posts/250421/" rel="alternate" type="text/html" title="가상 메모리와 페이지 교체 알고리즘" />
     <published>2025-04-21T01:57:17+09:00</published>
   
-    <updated>2025-05-12T17:35:17+09:00</updated>
+    <updated>2025-05-17T16:33:49+09:00</updated>
   
     <id>http://localhost:4000/posts/250421/</id>
     <content src="http://localhost:4000/posts/250421/" />
@@ -186,50 +220,6 @@ RAM(주기억장치)으로 복사되어 올라오는 것.
 
 주소 변환
 ...</summary>
-
-  </entry>
-
-  
-  <entry>
-    <title>[Python] 가장 긴 증가하는 부분 수열 (LIS)</title>
-    <link href="http://localhost:4000/posts/250328/" rel="alternate" type="text/html" title="[Python] 가장 긴 증가하는 부분 수열 (LIS)" />
-    <published>2025-03-27T23:44:54+09:00</published>
-  
-    <updated>2025-03-27T23:44:54+09:00</updated>
-  
-    <id>http://localhost:4000/posts/250328/</id>
-    <content src="http://localhost:4000/posts/250328/" />
-    <author>
-      <name>Jimin Hong</name>
-    </author>
-
-  
-    
-    <category term="PS" />
-    
-  
-
-  <summary>LIS(Longest Increasing Subsequence) 알고리즘
-
-주어진 수열에서 일부 원소를 제거해 순서를 유지한 채 가장 길게 증가하는 부분 수열을 찾는 문제다.
-O(N^2) 풀이(DP)와 O(N log N) 풀이(이분 탐색)가 있다.
-
-
-
-1️⃣ DP 풀이 (O(N^2))
-
-문제: 백준 11053번
-
-# dp
-N = int(input())
-dp = [0 for _ in range(N+1)]  
-# dp[i]: i번째 원소를 마지막으로 하는 증가하는 부분 수열들 중 가장 긴 것의 길이
-
-A = [0] + list(map(int, input().split()))
-for i in range(1, N+1):
-    max_num = 0
-    for j in range(i):
-        if...</summary>
 
   </entry>
 
