@@ -4,7 +4,7 @@
   <id>http://localhost:4000/</id>
   <title>Jimin's Github Blog</title>
   <subtitle>안녕하세요</subtitle>
-  <updated>2025-06-04T22:47:23+09:00</updated>
+  <updated>2025-06-05T02:14:07+09:00</updated>
   <author>
     <name>Jimin Hong</name>
     <uri>http://localhost:4000/</uri>
@@ -17,6 +17,43 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>벨만포드(Bellman-Ford) 알고리즘</title>
+    <link href="http://localhost:4000/posts/250605/" rel="alternate" type="text/html" title="벨만포드(Bellman-Ford) 알고리즘" />
+    <published>2025-06-05T02:09:42+09:00</published>
+  
+    <updated>2025-06-05T02:09:42+09:00</updated>
+  
+    <id>http://localhost:4000/posts/250605/</id>
+    <content src="http://localhost:4000/posts/250605/" />
+    <author>
+      <name>Jimin Hong</name>
+    </author>
+
+  
+    
+    <category term="PS" />
+    
+  
+
+  <summary>벨만포드 알고리즘은 하나의 정점에서 출발해 다른 모든 정점까지의 최단거리를 구하는 알고리즘이다. 다익스트라 알고리즘과 달리, 가중치가 음수일 때도 동작하며, 음의 사이클의 존재 여부도 탐지할 수 있다.
+
+
+
+출처: 위키피디아 
+벨만포드 알고리즘을 잘 설명해주는 gif인 것 같다.
+
+
+🧠 과정
+d 리스트에는 출발점으로부터 각 노드까지의 최단 거리가 저장된다.
+
+  모든 노드의 거리를 무한대(inf)로 초기화하고, 시작 노드의 인덱스(노드 번호)만 0으로 설정한다.
+  모든 노드들을 번호 순서대로 확인하되, 현재 확인 중인 노드의 최단거리가 inf가 아닌 경우에 한해, 그 노드 A와 연결된 모든 노드 B에 대해 d[A] + (A와 B 사이의 거리)가 d[B]보다 작으면 d[B]를 갱신한다.
+  2번 과정을...</summary>
+
+  </entry>
 
   
   <entry>
@@ -101,7 +138,7 @@ Flutter에서 지원하는 동적 테스트로는 단위 테스트, 위젯 테�
     <link href="http://localhost:4000/posts/250516/" rel="alternate" type="text/html" title="다익스트라(Dijkstra) 알고리즘" />
     <published>2025-05-16T15:38:22+09:00</published>
   
-    <updated>2025-05-16T15:38:22+09:00</updated>
+    <updated>2025-06-04T22:47:37+09:00</updated>
   
     <id>http://localhost:4000/posts/250516/</id>
     <content src="http://localhost:4000/posts/250516/" />
@@ -178,49 +215,6 @@ def dfs_infix(node):
     dfs_infix(node_dict[node][0])
     print(node, end=&amp;#39;&amp;#39;)
    ...</summary>
-
-  </entry>
-
-  
-  <entry>
-    <title>파이썬의 선: pythonic함이란?</title>
-    <link href="http://localhost:4000/posts/250422/" rel="alternate" type="text/html" title="파이썬의 선: pythonic함이란?" />
-    <published>2025-04-22T17:48:45+09:00</published>
-  
-    <updated>2025-04-22T17:48:45+09:00</updated>
-  
-    <id>http://localhost:4000/posts/250422/</id>
-    <content src="http://localhost:4000/posts/250422/" />
-    <author>
-      <name>Jimin Hong</name>
-    </author>
-
-  
-    
-    <category term="Memos" />
-    
-  
-
-  <summary>평화롭던 어느 날-
-챗지피티한테서 미션을 받았다.
-
-
-  Zen of Python이라는 철학도 있어요. import this를 실행하면 볼 수 있답니다!
-
-
-
-그래서 해봤다. 그랬더니 파이썬의 추구미(?)를 담은 시가 한 편 나왔다!
-
-The Zen of Python, by Tim Peters
-
-Beautiful is better than ugly.
-Explicit is better than implicit.
-Simple is better than complex.
-Complex is better than complicated.
-Flat is better than nested.
-Sparse is better than dense.
-Readability counts.
-Special cases aren&amp;#39;t s...</summary>
 
   </entry>
 
