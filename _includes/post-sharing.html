@@ -7,6 +7,7 @@
     {% assign title = title | uri_escape %}
     {% assign url = page.url | absolute_url | url_encode %}
 
+    <!--
     {% for share in site.data.share.platforms -%}
       {%- capture tooltip -%}
         data-bs-toggle="tooltip" data-bs-placement="top" title="{{ share.type }}" aria-label="{{ share.type }}"
@@ -36,7 +37,7 @@
         <i class="fa-fw {{ share.icon }}"></i>
       </a>
     {% endfor %}
-
+    -->
     <button
       id="copy-link"
       aria-label="Copy link"
