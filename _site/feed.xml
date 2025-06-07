@@ -2,9 +2,9 @@
 
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>http://localhost:4000/</id>
-  <title>Jimin's Github Blog</title>
-  <subtitle>안녕하세요</subtitle>
-  <updated>2025-06-08T00:01:05+09:00</updated>
+  <title>JM's Devlog</title>
+  <subtitle>🍀</subtitle>
+  <updated>2025-06-08T00:17:38+09:00</updated>
   <author>
     <name>Jimin Hong</name>
     <uri>http://localhost:4000/</uri>
