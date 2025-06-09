@@ -4,7 +4,7 @@
   <id>http://localhost:4000/</id>
   <title>JM's Devlog</title>
   <subtitle>🍀</subtitle>
-  <updated>2025-06-08T00:46:37+09:00</updated>
+  <updated>2025-06-10T04:24:05+09:00</updated>
   <author>
     <name>Jimin Hong</name>
     <uri>http://localhost:4000/</uri>
@@ -17,6 +17,44 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>[Flutter] GetX로 보는 MVVM 패턴 (vs MVC 패턴)</title>
+    <link href="http://localhost:4000/posts/250610/" rel="alternate" type="text/html" title="[Flutter] GetX로 보는 MVVM 패턴 (vs MVC 패턴)" />
+    <published>2025-06-10T02:26:12+09:00</published>
+  
+    <updated>2025-06-10T02:26:12+09:00</updated>
+  
+    <id>http://localhost:4000/posts/250610/</id>
+    <content src="http://localhost:4000/posts/250610/" />
+    <author>
+      <name>Jimin Hong</name>
+    </author>
+
+  
+    
+    <category term="Flutter" />
+    
+  
+
+  <summary>오늘은 Flutter에서 많이 사용하는 상태 관리 패키지 중 하나인 GetX를 활용하여, MVVM 패턴과 MVC 패턴을 비교해보려고 한다. 그 전에, 그동안 헷갈리던 MVC 패턴, MVP 패턴, MVVM 패턴을 복습해보자.
+
+MVC vs MVP vs MVVM
+
+우선 두 패턴 모두 M과 V를 가진다. M은 Model, V는 View를 의미한다.
+
+
+  Model: 데이터의 구조를 정의하고, 데이터를 처리하는 역할을 한다. 예를 들면, 모델 클래스 내부에 fromJson() 메소드를 정의하는 것도 데이터 처리 과정의 일부라고 볼 수 있다.
+  View: 위젯 등을 통해 사용자에게 보여지는 UI를 정의한다.
+
+
+이 Model과 View 사이의 의존성을 어떻게 처리하느냐에 따라 아키텍처 패턴이 달라진다.
+
+
+...</summary>
+
+  </entry>
 
   
   <entry>
@@ -163,58 +201,6 @@ d 리스트에는 출발점으로부터 각 노드까지의 최단 거리가 저
   이후 아직 방문하지 않은 노드들 중에서, 현재 최단거리가 가장 짧은(=출발점으로부터 가장 가까운, d에 들어가있는 값이 가장 작은) 노드 A를 선택한다.
   노드 A와 연결된 모든 노드 B에 대해, d[A] + (A와 B 사이의 거리) 가 d[B]보다 작으면, d[B]를 해당 값으로 갱신한다.
   모든 B에 ...</summary>
-
-  </entry>
-
-  
-  <entry>
-    <title>DFS 트리 순회</title>
-    <link href="http://localhost:4000/posts/250514/" rel="alternate" type="text/html" title="DFS 트리 순회" />
-    <published>2025-05-14T15:52:41+09:00</published>
-  
-    <updated>2025-05-14T15:52:41+09:00</updated>
-  
-    <id>http://localhost:4000/posts/250514/</id>
-    <content src="http://localhost:4000/posts/250514/" />
-    <author>
-      <name>Jimin Hong</name>
-    </author>
-
-  
-    
-    <category term="PS" />
-    
-  
-
-  <summary>백준 1991. 트리 순회
-
-DFS로 구현했다.
-
-
-  전위: 루트가 우선. 루트 - 왼쪽자식 - 오른쪽자식
-  중위: 왼쪽자식 - 루트 - 오른쪽자식
-  후위: 루트가 마지막. 왼쪽자식 - 오른쪽자식 - 루트
-
-
-
-
-
-
-코드
-
-def dfs_prefix(node):
-    if node == &amp;#39;.&amp;#39;:
-        return
-    print(node, end=&amp;#39;&amp;#39;)
-    dfs_prefix(node_dict[node][0])
-    dfs_prefix(node_dict[node][1])
-
-def dfs_infix(node):
-    if node == &amp;#39;.&amp;#39;:
-        return
-    dfs_infix(node_dict[node][0])
-    print(node, end=&amp;#39;&amp;#39;)
-   ...</summary>
 
   </entry>
 
