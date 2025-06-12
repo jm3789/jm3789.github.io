@@ -4,7 +4,7 @@
   <id>http://localhost:4000/</id>
   <title>JM's Devlog</title>
   <subtitle>🍀</subtitle>
-  <updated>2025-06-10T04:24:05+09:00</updated>
+  <updated>2025-06-13T04:35:44+09:00</updated>
   <author>
     <name>Jimin Hong</name>
     <uri>http://localhost:4000/</uri>
@@ -20,11 +20,51 @@
 
   
   <entry>
-    <title>[Flutter] GetX로 보는 MVVM 패턴 (vs MVC 패턴)</title>
-    <link href="http://localhost:4000/posts/250610/" rel="alternate" type="text/html" title="[Flutter] GetX로 보는 MVVM 패턴 (vs MVC 패턴)" />
+    <title>[Flutter] BuildContext</title>
+    <link href="http://localhost:4000/posts/250613/" rel="alternate" type="text/html" title="[Flutter] BuildContext" />
+    <published>2025-06-13T04:09:31+09:00</published>
+  
+    <updated>2025-06-13T04:09:31+09:00</updated>
+  
+    <id>http://localhost:4000/posts/250613/</id>
+    <content src="http://localhost:4000/posts/250613/" />
+    <author>
+      <name>Jimin Hong</name>
+    </author>
+
+  
+    
+    <category term="Memos" />
+    
+  
+
+  <summary>그동안 Flutter의 GetX에 익숙했는데, GetX에서는 BuildContext 없이도 객체를 불러올 수 있었다(GetX 말고 Provider나 BloC같은 다른 상태관리 패키지에서는 ViewModel을 얻기 위해 BuildContext가 필요하다고 한다). 
+
+그래서인지 BuildContext에 대한 개념이 빈약했던 거 같아, 이번에 이 개념을 자세히 정리하려고 한다.
+
+
+
+
+
+Flutter 아키텍처 
+
+
+출처 : 공식문서
+
+Flutter 아키텍처는 Embedder, Engine, Framework 순으로 점점 더 추상화된다.
+이 중 Framework 계층은 개발자가 Dart 언어로 Flutter와 상호작용하는 부분인데, 이 안에 Widget Layer가 포함되어 있다.
+
+Widget Layer는...</summary>
+
+  </entry>
+
+  
+  <entry>
+    <title>[Flutter] GetX로 보는 MVVM (vs MVC)</title>
+    <link href="http://localhost:4000/posts/250610/" rel="alternate" type="text/html" title="[Flutter] GetX로 보는 MVVM (vs MVC)" />
     <published>2025-06-10T02:26:12+09:00</published>
   
-    <updated>2025-06-10T02:26:12+09:00</updated>
+    <updated>2025-06-11T08:21:38+09:00</updated>
   
     <id>http://localhost:4000/posts/250610/</id>
     <content src="http://localhost:4000/posts/250610/" />
@@ -167,40 +207,6 @@ Flutter에서 지원하는 동적 테스트로는 단위 테스트, 위젯 테�
   Data 영역: 프로그램의 전역변수와 정적변수가 저장된다.
   Heap 영역: 사용자의 동적할당에 사용된다. 런타임에 크기가 결정된다(확장 가능). 낮은 주소에서 높은 주소로 올라간다.
   Stack 영역: 지역변수와 매개변수가 저장된다. 컴파일 타임에 크기가 결정되며, 높은 주소에서 낮은 주소로 내려간다(+ 과거에는 영역을 누가 침범하느냐에 따라 heap overflow, stack...</summary>
-
-  </entry>
-
-  
-  <entry>
-    <title>다익스트라(Dijkstra) 알고리즘</title>
-    <link href="http://localhost:4000/posts/250516/" rel="alternate" type="text/html" title="다익스트라(Dijkstra) 알고리즘" />
-    <published>2025-05-16T15:38:22+09:00</published>
-  
-    <updated>2025-06-04T22:47:37+09:00</updated>
-  
-    <id>http://localhost:4000/posts/250516/</id>
-    <content src="http://localhost:4000/posts/250516/" />
-    <author>
-      <name>Jimin Hong</name>
-    </author>
-
-  
-    
-    <category term="PS" />
-    
-  
-
-  <summary>다익스트라 알고리즘은 하나의 정점에서 출발해 다른 모든 정점까지의 최단거리를 구하는 알고리즘이다. 대표적인 그리디 알고리즘 중 하나다. 모든 간선의 가중치가 0 이상의 양수일 때 사용할 수 있다.
-
-🧠 과정
-
-d 리스트에는 출발점으로부터 각 노드까지의 최단 거리가 저장된다.
-
-
-  모든 노드의 거리를 무한대(inf)로 초기화하고, 시작 노드의 인덱스(노드 번호와 동일)의 값만 0으로 설정한다.
-  이후 아직 방문하지 않은 노드들 중에서, 현재 최단거리가 가장 짧은(=출발점으로부터 가장 가까운, d에 들어가있는 값이 가장 작은) 노드 A를 선택한다.
-  노드 A와 연결된 모든 노드 B에 대해, d[A] + (A와 B 사이의 거리) 가 d[B]보다 작으면, d[B]를 해당 값으로 갱신한다.
-  모든 B에 ...</summary>
 
   </entry>
 
