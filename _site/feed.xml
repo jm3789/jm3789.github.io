@@ -4,7 +4,7 @@
   <id>http://localhost:4000/</id>
   <title>JM's Devlog</title>
   <subtitle>🍀</subtitle>
-  <updated>2025-06-13T04:35:44+09:00</updated>
+  <updated>2025-06-13T11:36:43+09:00</updated>
   <author>
     <name>Jimin Hong</name>
     <uri>http://localhost:4000/</uri>
@@ -34,7 +34,7 @@
 
   
     
-    <category term="Memos" />
+    <category term="Flutter" />
     
   
 
@@ -52,9 +52,10 @@ Flutter 아키텍처 
 출처 : 공식문서
 
 Flutter 아키텍처는 Embedder, Engine, Framework 순으로 점점 더 추상화된다.
-이 중 Framework 계층은 개발자가 Dart 언어로 Flutter와 상호작용하는 부분인데, 이 안에 Widget Layer가 포함되어 있다.
 
-Widget Layer는...</summary>
+
+  Embedder 계층: 각 플랫폼 별 기능들(통신, 사용자입력 등)을 플랫폼별로 구동시킬 수 있도록 하는 레이어다.
+Engine 계층: Flutter의 저수준 기능들...</summary>
 
   </entry>
 
