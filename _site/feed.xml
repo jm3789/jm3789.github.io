@@ -4,7 +4,7 @@
   <id>http://localhost:4000/</id>
   <title>JM's Devlog</title>
   <subtitle>🍀</subtitle>
-  <updated>2025-06-13T11:36:43+09:00</updated>
+  <updated>2025-06-13T12:10:38+09:00</updated>
   <author>
     <name>Jimin Hong</name>
     <uri>http://localhost:4000/</uri>
@@ -24,7 +24,7 @@
     <link href="http://localhost:4000/posts/250613/" rel="alternate" type="text/html" title="[Flutter] BuildContext" />
     <published>2025-06-13T04:09:31+09:00</published>
   
-    <updated>2025-06-13T04:09:31+09:00</updated>
+    <updated>2025-06-13T11:38:15+09:00</updated>
   
     <id>http://localhost:4000/posts/250613/</id>
     <content src="http://localhost:4000/posts/250613/" />
