@@ -4,7 +4,7 @@
   <id>http://localhost:4000/</id>
   <title>JM's Devlog</title>
   <subtitle>🍀</subtitle>
-  <updated>2025-06-13T12:10:38+09:00</updated>
+  <updated>2025-06-17T11:18:54+09:00</updated>
   <author>
     <name>Jimin Hong</name>
     <uri>http://localhost:4000/</uri>
@@ -20,11 +20,85 @@
 
   
   <entry>
+    <title>내가 보려고 만든 Git 명령어 정리</title>
+    <link href="http://localhost:4000/posts/250617/" rel="alternate" type="text/html" title="내가 보려고 만든 Git 명령어 정리" />
+    <published>2025-06-17T10:39:43+09:00</published>
+  
+    <updated>2025-06-17T10:39:43+09:00</updated>
+  
+    <id>http://localhost:4000/posts/250617/</id>
+    <content src="http://localhost:4000/posts/250617/" />
+    <author>
+      <name>Jimin Hong</name>
+    </author>
+
+  
+    
+    <category term="Memos" />
+    
+  
+
+  <summary>✅ 로컬에 있는 프로젝트를 비어있는 깃허브 레포지토리에 푸시하기
+
+
+  git init
+
+
+프로젝트 디렉토리에서 Git 초기화 
+
+
+  git remote add origin [원격저장소 주소]
+
+
+원격 저장소(origin) 등록
+
+
+  git add .
+
+
+변경사항 스테이지에 추가
+
+
+  git commit -m &amp;quot;first commit&amp;quot;
+
+
+커밋 생성
+
+
+  git branch -M main
+
+
+main 브랜치 이름 설정 (필요한 경우)
+
+
+  git push -u origin main
+
+
+최초 push (원격 브랜치와 연결)
+
+
+
+✅ 원격 레포에 있는 프로젝트 로컬로 가져오기
+
+
+  git clone [원격 저장소 주소]
+
+
+해당 원격 레포지토리 전체를 clone해서 새 디렉토리 생성
+
+
+
+✅ p...</summary>
+
+  </entry>
+
+  
+  <entry>
     <title>[Flutter] BuildContext</title>
     <link href="http://localhost:4000/posts/250613/" rel="alternate" type="text/html" title="[Flutter] BuildContext" />
     <published>2025-06-13T04:09:31+09:00</published>
   
-    <updated>2025-06-13T11:38:15+09:00</updated>
+    <updated>2025-06-13T12:11:03+09:00</updated>
   
     <id>http://localhost:4000/posts/250613/</id>
     <content src="http://localhost:4000/posts/250613/" />
@@ -174,40 +248,6 @@ Flutter에서 지원하는 동적 테스트로는 단위 테스트, 위젯 테�
 
   
     단...</summary>
-
-  </entry>
-
-  
-  <entry>
-    <title>프로세스와 스케줄링 기법</title>
-    <link href="http://localhost:4000/posts/250529/" rel="alternate" type="text/html" title="프로세스와 스케줄링 기법" />
-    <published>2025-05-28T23:47:22+09:00</published>
-  
-    <updated>2025-05-28T23:47:22+09:00</updated>
-  
-    <id>http://localhost:4000/posts/250529/</id>
-    <content src="http://localhost:4000/posts/250529/" />
-    <author>
-      <name>Jimin Hong</name>
-    </author>
-
-  
-    
-    <category term="CS" />
-    
-  
-
-  <summary>프로세스와 스레드
-
-프로세스(process)
-
-프로세스는 프로그램이 CPU(프로세서)에서 실행될 수 있도록 메모리에 적재된 상태를 말한다. 각 프로세스는 낮은 주소에서 높은 주소로 올라가는 순서대로, Code, Data, Heap, Stack 영역으로 나뉜다.
-
-
-  Code 영역: 실행할 프로그램의 코드가 저장된다.
-  Data 영역: 프로그램의 전역변수와 정적변수가 저장된다.
-  Heap 영역: 사용자의 동적할당에 사용된다. 런타임에 크기가 결정된다(확장 가능). 낮은 주소에서 높은 주소로 올라간다.
-  Stack 영역: 지역변수와 매개변수가 저장된다. 컴파일 타임에 크기가 결정되며, 높은 주소에서 낮은 주소로 내려간다(+ 과거에는 영역을 누가 침범하느냐에 따라 heap overflow, stack...</summary>
 
   </entry>
 
