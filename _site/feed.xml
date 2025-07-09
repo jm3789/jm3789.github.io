@@ -4,7 +4,7 @@
   <id>http://localhost:4000/</id>
   <title>JM's Devlog</title>
   <subtitle>🍀</subtitle>
-  <updated>2025-07-10T03:06:59+09:00</updated>
+  <updated>2025-07-10T03:36:21+09:00</updated>
   <author>
     <name>Jimin Hong</name>
     <uri>http://localhost:4000/</uri>
@@ -128,7 +128,7 @@ main 브랜치 이름 설정 (필요한 경우)
     <link href="http://localhost:4000/posts/250613/" rel="alternate" type="text/html" title="[Flutter] BuildContext" />
     <published>2025-06-13T04:09:31+09:00</published>
   
-    <updated>2025-07-10T02:52:34+09:00</updated>
+    <updated>2025-07-10T03:08:58+09:00</updated>
   
     <id>http://localhost:4000/posts/250613/</id>
     <content src="http://localhost:4000/posts/250613/" />
