@@ -4,7 +4,7 @@
   <id>http://localhost:4000/</id>
   <title>JM's Devlog</title>
   <subtitle>🍀</subtitle>
-  <updated>2025-06-17T11:18:54+09:00</updated>
+  <updated>2025-07-10T01:38:12+09:00</updated>
   <author>
     <name>Jimin Hong</name>
     <uri>http://localhost:4000/</uri>
@@ -17,6 +17,36 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>네이버 부스트캠프 10기(Android) 베이직 후기</title>
+    <link href="http://localhost:4000/posts/250708/" rel="alternate" type="text/html" title="네이버 부스트캠프 10기(Android) 베이직 후기" />
+    <published>2025-07-08T16:19:53+09:00</published>
+  
+    <updated>2025-07-08T16:19:53+09:00</updated>
+  
+    <id>http://localhost:4000/posts/250708/</id>
+    <content src="http://localhost:4000/posts/250708/" />
+    <author>
+      <name>Jimin Hong</name>
+    </author>
+
+  
+    
+    <category term="Memos" />
+    
+  
+
+  <summary>참여 계기
+
+그동안 Flutter로 앱 개발을 진행했었다. Flutter는 빠른 개발이 가능하다는 장점이 있지만, 크로스플랫폼 프레임워크의 추상화 계층 위에서 동작하다 보니, 시스템 자원을 제어하는 데 한계가 있다고 한다(사실 개발경험이 아직 부족해서 직접적으로 그 한계를 마주친 적은 없지만…그래도 크로스플랫폼을 네이티브 관점에서 이해할 필요성을 느꼈다). 그래서 틈틈이 코틀린 공부를 해왔다. 
+
+근데 코틀린을 혼자 공부하려니 한계가 있었다. 우선 코틀린은 자바 베이스인데 나는 자바도 잘 몰랐다…그리고 특히 함수형 프로그래밍이 굉장히 생소하다고 느꼈다. 그래서 네이티브 개발 공부에 대한 두려움이 있었던 거 같다.
+
+그러던 중 네이버 부스트캠프에서 안드로이드 과정이 있다는 소식을 들었다. 그중 베이직 과...</summary>
+
+  </entry>
 
   
   <entry>
@@ -125,11 +155,13 @@ Flutter 아키텍처 
 
 출처 : 공식문서
 
+
+
 Flutter 아키텍처는 Embedder, Engine, Framework 순으로 점점 더 추상화된다.
 
 
   Embedder 계층: 각 플랫폼 별 기능들(통신, 사용자입력 등)을 플랫폼별로 구동시킬 수 있도록 하는 레이어다.
-Engine 계층: Flutter의 저수준 기능들...</summary>
+Engine 계층: Flutter의 저수준 기...</summary>
 
   </entry>
 
@@ -205,49 +237,6 @@ d 리스트에는 출발점으로부터 각 노드까지의 최단 거리가 저
   모든 노드의 거리를 무한대(inf)로 초기화하고, 시작 노드의 인덱스(노드 번호)만 0으로 설정한다.
   모든 노드들을 번호 순서대로 확인하되, 현재 확인 중인 노드의 최단거리가 inf가 아닌 경우에 한해, 그 노드 A와 연결된 모든 노드 B에 대해 d[A] + (A와 B 사이의 거리)가 d[B]보다 작으면 d[B]를 갱신한다.
   2번 과정을...</summary>
-
-  </entry>
-
-  
-  <entry>
-    <title>[Flutter] 단위 테스트</title>
-    <link href="http://localhost:4000/posts/250602/" rel="alternate" type="text/html" title="[Flutter] 단위 테스트" />
-    <published>2025-06-02T19:08:28+09:00</published>
-  
-    <updated>2025-06-03T01:57:47+09:00</updated>
-  
-    <id>http://localhost:4000/posts/250602/</id>
-    <content src="http://localhost:4000/posts/250602/" />
-    <author>
-      <name>Jimin Hong</name>
-    </author>
-
-  
-    
-    <category term="Flutter" />
-    
-  
-
-  <summary>Flutter 프로젝트를 시작하기 전에 테스트에 대한 개념을 정리해보기로 했다. 오늘은 단위 테스트(Unit test)에 대해 알아보려고 한다.
-
-테스트의 종류
-
-테스트는 보통 정적 테스트와 동적 테스트로 나뉜다.
-
-정적 테스트
-프로그램을 실행하지 않고 테스트하는 기법이다. 실행 없이 개발 산출물(코드나 문서 등)을 분석하기만 한다. 
-코드 리뷰나 별도의 정적 테스트 도구를 통해 진행한다.
-
-  Flutter에서는 flutter analyze 명령어를 통해 문법오류, 스타일 위반, 사용되지 않는 코드 등을 찾아낼 수 있다.
-
-
-동적 테스트
-프로그램을 직접 실행해보면서 테스트하는 기법이다. 
-Flutter에서 지원하는 동적 테스트로는 단위 테스트, 위젯 테스트, 통합 테스트 가 있다.
-
-
-  
-    단...</summary>
 
   </entry>
 
