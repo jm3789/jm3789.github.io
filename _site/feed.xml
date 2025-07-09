@@ -4,7 +4,7 @@
   <id>http://localhost:4000/</id>
   <title>JM's Devlog</title>
   <subtitle>🍀</subtitle>
-  <updated>2025-07-10T01:38:12+09:00</updated>
+  <updated>2025-07-10T02:39:09+09:00</updated>
   <author>
     <name>Jimin Hong</name>
     <uri>http://localhost:4000/</uri>
@@ -156,12 +156,16 @@ Flutter 아키텍처 
 출처 : 공식문서
 
 
+출처 : 공식문서
+
+
+_출처 : 공식문서
 
 Flutter 아키텍처는 Embedder, Engine, Framework 순으로 점점 더 추상화된다.
 
 
   Embedder 계층: 각 플랫폼 별 기능들(통신, 사용자입력 등)을 플랫폼별로 구동시킬 수 있도록 하는 레이어다.
-Engine 계층: Flutter의 저수준 기...</summary>
+En...</summary>
 
   </entry>
 
