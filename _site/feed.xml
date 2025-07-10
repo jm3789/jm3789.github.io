@@ -4,7 +4,7 @@
   <id>http://localhost:4000/</id>
   <title>JM's Devlog</title>
   <subtitle>🍀</subtitle>
-  <updated>2025-07-10T21:58:09+09:00</updated>
+  <updated>2025-07-10T22:02:37+09:00</updated>
   <author>
     <name>Jimin Hong</name>
     <uri>http://localhost:4000/</uri>
@@ -24,7 +24,7 @@
     <link href="http://localhost:4000/posts/250708/" rel="alternate" type="text/html" title="네이버 부스트캠프 10기(Android) 베이직 후기" />
     <published>2025-07-08T16:19:53+09:00</published>
   
-    <updated>2025-07-08T16:19:53+09:00</updated>
+    <updated>2025-07-10T21:59:59+09:00</updated>
   
     <id>http://localhost:4000/posts/250708/</id>
     <content src="http://localhost:4000/posts/250708/" />
@@ -156,14 +156,13 @@ main 브랜치 이름 설정 (필요한 경우)
 Flutter 아키텍처 
 
 
-
 출처 : 공식문서
 
 Flutter 아키텍처는 Embedder, Engine, Framework 순으로 점점 더 추상화된다.
 
 
   Embedder 계층: 각 플랫폼 별 기능들(통신, 사용자입력 등)을 플랫폼별로 구동시킬 수 있도록 하는 레이어다.
-Engine 계층: Flutter의 저수준 기능...</summary>
+Engine 계층: Flutter의 저수준 기능들...</summary>
 
   </entry>
 

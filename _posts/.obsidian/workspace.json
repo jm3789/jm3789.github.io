@@ -35,7 +35,8 @@
               "title": "2025-06-13-250613"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -177,10 +178,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "fcf04c5601fc78d2",
+  "active": "24a3d5dbd61b3093",
   "lastOpenFiles": [
-    "posts/flutter/2025-06-13-250613.md",
     "posts/memos/2025-07-08-250708.md",
+    "posts/flutter/2025-06-13-250613.md",
     "images/250613-1.png",
     "posts/gitblog/2024-11-14-241114_1.md",
     "posts/gitblog/2024-11-12-241112_1.md",
