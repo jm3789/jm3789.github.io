@@ -4,7 +4,7 @@
   <id>http://localhost:4000/</id>
   <title>JM's Devlog</title>
   <subtitle>🍀</subtitle>
-  <updated>2025-07-10T22:55:26+09:00</updated>
+  <updated>2025-07-10T23:09:05+09:00</updated>
   <author>
     <name>Jimin Hong</name>
     <uri>http://localhost:4000/</uri>
@@ -24,7 +24,7 @@
     <link href="http://localhost:4000/posts/250708/" rel="alternate" type="text/html" title="네이버 부스트캠프 10기(Android) 베이직 후기" />
     <published>2025-07-08T16:19:53+09:00</published>
   
-    <updated>2025-07-10T21:59:59+09:00</updated>
+    <updated>2025-07-10T22:57:02+09:00</updated>
   
     <id>http://localhost:4000/posts/250708/</id>
     <content src="http://localhost:4000/posts/250708/" />
@@ -40,14 +40,15 @@
 
   <summary>참여 계기
 
-그동안 플러터로 앱 개발을 진행했었다. 그런데 플러터는 크로스플랫폼이다보니, 네이티브 자원을 제어하는 데 한계가 있다고 한다(사실 개발경험이 아직 부족해서 직접적으로 그 한계를 마주친 적은 없지만..그래도 크로스플랫폼을 네이티브 관점에서 이해할 필요성을 느꼈다). 그래서 틈틈이 코틀린 공부를 해왔다. 
+그동안 플러터로 앱 개발을 했었다.  
+플러터는 크로스플랫폼이다 보니 네이티브 자원을 제어하는 데 한계가 있다고 한다. 아직 개발 경험이 부족해서 직접적으로 그 한계를 마주쳐본 적은 없지만, 그래도 언젠간 배워야 하기도 했고, 배워보고 싶기도 했다.
 
-근데 코틀린을 혼자 공부하려니 되게 막연했다. 우선 코틀린은 자바 베이스인데 나는 자바도 잘 몰랐고… 특히 함수형 프로그래밍이 굉장히 생소하다고 느꼈다.
+그런데 안드로이드 개발에 쓰이는 언어인 코틀린을 혼자 공부하려니 되게 막막했다. 우선 코틀린은 자바 베이스인데 나는 자바도 잘 몰랐고… 특히 함수형 프로그래밍이 굉장히 생소했던 거 같다.
 
-그러던 중 네이버 부스트캠프에서 안드로이드 과정이 있다는 소식을 들었다. 그중 베이직 과정은 별다른 조건 없이 신청만 하면 입과할 수 있다고 해서, 나도 도전해보기로 했다!
+그러던 중 네이버 부스트캠프에서 안드로이드 과정이 있다는 소식을 들었다. 그중 베이직 과정은 별다른 조건 없이 신청만 하면 입과할 수 있다고 해서 나도 도전해보기로 했다!
 
 
-네이버에서 무료로 주는 학습 가이드라니 개꿀. 합격해서 챌린...</summary>
+네이버에서 무료로 주는 학습 가이드라니 개꿀. 합격해서 챌린지 입과하면 더 개꿀....</summary>
 
   </entry>
 
@@ -131,7 +132,7 @@ main 브랜치 이름 설정 (필요한 경우)
     <link href="http://localhost:4000/posts/250613/" rel="alternate" type="text/html" title="[Flutter] BuildContext" />
     <published>2025-06-13T04:09:31+09:00</published>
   
-    <updated>2025-07-10T22:17:57+09:00</updated>
+    <updated>2025-07-10T22:57:02+09:00</updated>
   
     <id>http://localhost:4000/posts/250613/</id>
     <content src="http://localhost:4000/posts/250613/" />
@@ -210,7 +211,7 @@ MVC vs MVP vs MVVM
     <link href="http://localhost:4000/posts/250605/" rel="alternate" type="text/html" title="벨만포드(Bellman-Ford) 알고리즘" />
     <published>2025-06-05T02:09:42+09:00</published>
   
-    <updated>2025-06-05T02:09:42+09:00</updated>
+    <updated>2025-07-10T22:57:02+09:00</updated>
   
     <id>http://localhost:4000/posts/250605/</id>
     <content src="http://localhost:4000/posts/250605/" />
